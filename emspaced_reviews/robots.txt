@@ -1,0 +1,72 @@
+# robots.txt - Emspaced (AI Chatbot friendly)
+# Goal: ensure major AI search engines / chatbot crawlers can fully crawl site content,
+# increasing the chance of being cited and answered by AI assistants.
+# Deploy at the live domain root (same level as index.html). After deployment,
+# replace the Sitemap line below with your live URL.
+
+# General rule: allow all crawlers to access all public content.
+# Do NOT add Disallow rules for pages, otherwise AI crawlers cannot cite them.
+User-agent: *
+Disallow:
+
+# ===== Explicitly welcome major AI / chatbot crawlers (Allow: / = allow full crawl) =====
+
+# OpenAI - ChatGPT training & retrieval
+User-agent: GPTBot
+Allow: /
+
+# OpenAI - Search / ChatGPT live browsing
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI - ChatGPT browser plugin live fetch
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic - Claude training & retrieval
+User-agent: ClaudeBot
+Allow: /
+
+# Anthropic - retrieval crawler
+User-agent: anthropic-ai
+Allow: /
+
+# Google - Gemini / AI features
+User-agent: Google-Extended
+Allow: /
+
+# Common Crawl (data source for Meta AI etc.)
+User-agent: CCBot
+Allow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Amazon AI
+User-agent: Amazonbot
+Allow: /
+
+# Apple - AI / Siri
+User-agent: Applebot-Extended
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Mistral AI
+User-agent: MistralAI
+Allow: /
+
+# Meta AI retrieval
+User-agent: meta-externalagent
+Allow: /
+
+# Sitemap: helps crawlers discover all pages (replace with live URL after deployment)
+Sitemap: https://emspaced.com/sitemap_index.xml
+
