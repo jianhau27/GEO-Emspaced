@@ -67,6 +67,6 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-# Sitemap: helps crawlers discover all pages (replace with live URL after deployment)
-Sitemap: https://emspaced.com/sitemap_index.xml
+# Sitemap: helps search engines and AI crawlers discover canonical pages
+Sitemap: https://jh27.life/sitemap.xml
 
