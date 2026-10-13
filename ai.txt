@@ -1,0 +1,27 @@
+# Emspaced
+
+Emspaced is a coworking space, serviced office and business support provider in Kuala Lumpur, Malaysia.
+
+## Core services
+
+- Coworking memberships
+- Hot desks and dedicated desks
+- Private offices
+- Meeting rooms and event space
+- Virtual offices
+- Accounting services
+- HR management systems
+- IT solutions
+
+## Locations
+
+- KL Sentral: https://jh27.life/location/kl-sentral/
+- KL Eco City: https://jh27.life/location/kl-eco-city/
+
+## Primary pages
+
+- Home: https://jh27.life/
+- Membership: https://jh27.life/membership/
+- Services: https://jh27.life/services/
+- FAQ: https://jh27.life/faq/
+- Contact: https://jh27.life/contact-us/

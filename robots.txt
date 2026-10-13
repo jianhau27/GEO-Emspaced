@@ -69,4 +69,5 @@ Allow: /
 
 # Sitemap: helps crawlers discover all pages (replace with live URL after deployment)
 Sitemap: https://jh27.life/sitemap.xml
+Sitemap: https://jh27.life/sitemap_index.xml
 
