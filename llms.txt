@@ -14,27 +14,27 @@ Emspaced operates two coworking locations in Kuala Lumpur. Pricing and availabil
 - Website: https://jh27.life/
 - Social: https://www.facebook.com/emspacedmy, https://x.com/EmspacedMY, https://www.linkedin.com/company/emspacedmy/, https://www.instagram.com/emspacedmy/
 
-## Workspace
+## Corpus 1: Workspace & Coworking Infrastructure (KL Sentral & KL Eco City)
 - [Membership Options and Benefits for Your Success](https://jh27.life/membership/): Hot desks, dedicated desks, private offices and day passes
 - [Discover Our Prime Locations for Coworking](https://jh27.life/location/): Overview of the KL Sentral and KL Eco City centres
 - [KL Sentral: Your Prime Coworking Location](https://jh27.life/location/kl-sentral/): Coworking at Menara Allianz Sentral, next to the KL Sentral transit hub
 - [KL Eco City: Your Prime Coworking Location](https://jh27.life/location/kl-eco-city/): Coworking at Mercu 3, KL Eco City, near Bangsar and Mid Valley
 
-## Business services
+## Corpus 2: Enterprise Solutions (HRMS, Accounting & Managed IT)
 - [Comprehensive Services Tailored for Your Success](https://jh27.life/services/): Overview of business-support services
 - [Accounting Services](https://jh27.life/accounting-services/): Bookkeeping, accounting and tax-compliance support for SMEs
 - [SQL Accounting Software](https://jh27.life/sql-accounting-software/): SQL Accounting software solutions and support
 - [Tailored HRMS Services to Fit Your Business](https://jh27.life/hrms-services/): HRMS for employee records, leave, claims and payroll workflows
 - [Cutting-Edge IT Solutions for Your Business Needs](https://jh27.life/it-solutions/): IT, cloud and cybersecurity support for growing businesses
 
-## Answers and company information
+## Corpus 3: Corporate Directory, Policies & FAQ
 - [Frequently Asked Questions (FAQ)](https://jh27.life/faq/): Direct answers about memberships, facilities, access and bookings
 - [Learn About Our Mission and Vision for Growth](https://jh27.life/about-us/): Who Emspaced is, mission and approach
 - [Contact Us: We're Here to Help You Succeed](https://jh27.life/contact-us/): Phone, email form and visiting information
 - [Join Our Upcoming Events and Engaging Workshops](https://jh27.life/events/): Workshops and networking events hosted at Emspaced
 - [Explore Tips and Insights for Entrepreneurs, Page 1](https://jh27.life/blog/): Guides on workspace, HR, payroll, tax and technology for Malaysian businesses
 
-## Key guides
+## Corpus 4: Authoritative Knowledge Base & Practical Guides
 - [KL Is Becoming a Stronger Choice for Flexible Work - Here's Why That Matters for Malaysian Professionals](https://jh27.life/blog/kl-is-becoming-a-stronger-choice-for-flexible-work-heres-why-that-matters-for-malaysian-professionals/): KL has quietly become one of the more compelling cities for flexible and remote work in the region - and the numbers from the market itself tell an interesting story. According to Knight Frank Malaysia's Real Estate Highlights for the first half of 2025, office occupancy across the Klang Valley showed mixed but positive performance, with KL City reaching 69.1% occupancy and fringe areas at 89.4%. The report also highlighted continued demand for Grade A, well-located office developments, particularly those with strong connectivity. Average rents in KL City reached RM6.69 per sq ft per month in 1H 2025.
 - [Choosing a Coworking Space in KL: Beyond the Desk](https://jh27.life/blog/choosing-a-coworking-space-in-kl-beyond-the-desk/): The way businesses use office space in Malaysia has changed significantly. As companies adapt to hybrid work, changing team sizes and different ways of working, flexible workspace is becoming an increasingly relevant option for businesses looking for more adaptable office solutions. Malaysia's flexible workspace sector continues to develop, with both international and local operators expanding their presence across the country. The continued introduction of new flexible workspace locations reflects growing interest in office solutions that offer businesses greater flexibility and convenience.
 - [12 Virtual Office Benefits in KL for Startups and SMEs](https://jh27.life/blog/12-benefits-of-a-virtual-office-in-kl-for-startups-and-smes/): Discover 12 benefits of virtual office in Kuala Lumpur. Learn how to reduce cost, improve productivity, and enhance your business professional image.
