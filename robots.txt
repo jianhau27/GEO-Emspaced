@@ -68,6 +68,25 @@ User-agent: meta-externalagent
 Allow: /
 
 # Sitemap: helps crawlers discover all pages (replace with live URL after deployment)
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+# Sitemaps
 Sitemap: https://jh27.life/sitemap.xml
 Sitemap: https://jh27.life/sitemap_index.xml
-

@@ -1,0 +1,63 @@
+{
+  "_comment": "GEO optimisation config. Change site_url to https://emspaced.com when deploying to production (or pass --site-url).",
+  "site_url": "https://jh27.life",
+  "production_url": "https://emspaced.com",
+  "known_hosts": [
+    "https://emspaced.com",
+    "https://www.emspaced.com",
+    "https://test.emspaced.com",
+    "https://jh27.life",
+    "https://www.jh27.life"
+  ],
+  "production_asset_host": "https://emspaced.com",
+  "brand": {
+    "name": "Emspaced",
+    "description": "Emspaced is a coworking space, serviced office and business-support provider in Kuala Lumpur, Malaysia, with locations at KL Sentral and KL Eco City. It offers hot desks, dedicated desks, private offices, meeting rooms, virtual offices, accounting services, HR management systems (HRMS) and IT solutions for freelancers, startups and SMEs.",
+    "telephone": "+60-3-7890-0205",
+    "mobile": "+60-12-281-9553",
+    "same_as": [
+      "https://www.facebook.com/emspacedmy",
+      "https://x.com/EmspacedMY",
+      "https://www.linkedin.com/company/emspacedmy/",
+      "https://www.instagram.com/emspacedmy/"
+    ],
+    "knows_about": [
+      "Coworking spaces",
+      "Serviced offices",
+      "Private offices",
+      "Hot desks and dedicated desks",
+      "Meeting rooms and event spaces",
+      "Virtual offices and business addresses",
+      "Accounting and bookkeeping services",
+      "SQL Accounting software",
+      "Human resource management systems (HRMS)",
+      "Payroll in Malaysia",
+      "LHDN e-Invoicing compliance",
+      "IT solutions for SMEs"
+    ],
+    "area_served": ["Kuala Lumpur", "Klang Valley", "Malaysia"]
+  },
+  "author": {
+    "_comment": "Replace with a real person (type=Person, job_title, same_as=[LinkedIn URL]) to maximise E-E-A-T.",
+    "type": "Organization",
+    "name": "Emspaced Editorial Team",
+    "url_path": "/about-us/",
+    "job_title": "",
+    "same_as": [],
+    "legacy_names": ["Emspaced Admin"]
+  },
+  "featured_posts": [
+    "kl-is-becoming-a-stronger-choice-for-flexible-work-heres-why-that-matters-for-malaysian-professionals",
+    "choosing-a-coworking-space-in-kl-beyond-the-desk",
+    "12-benefits-of-a-virtual-office-in-kl-for-startups-and-smes",
+    "shared-office-space-or-private-office-which-is-right-for-you",
+    "what-is-coworking-everything-you-need-to-know",
+    "phase-4-e-invoicing-has-started-here-is-what-your-business-actually-needs-to-do-right-now",
+    "lhdn-raised-rm4-4-billion-in-additional-tax-assessments-and-e-invoicing-is-strengthening-compliance",
+    "how-to-prepare-employee-pay-slips-properly-in-malaysia",
+    "how-to-choose-the-right-hrms",
+    "tax-relief-vs-tax-deduction-decoding-your-malaysian-tax-savings",
+    "malaysian-businesses-are-facing-a-high-volume-of-cyber-incidents-and-fraud-is-only-the-beginning",
+    "finding-the-perfect-event-venue-in-kuala-lumpur"
+  ]
+}
