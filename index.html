@@ -366,37 +366,165 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 </div>
 
-<section class="geo-answer-capsule elementor-element e-flex e-con-boxed e-con e-parent" aria-label="Key Takeaways" id="summary" style="background-color:#00472D;padding:54px 24px;width:100%;text-align:center;">
-<div class="e-con-inner" style="max-width:1140px;margin:0 auto;width:100%;text-align:center;">
-  <div style="margin-bottom:12px;">
-    <span style="display:inline-block;background:rgba(255,255,255,0.12);color:#FFFFFF;font-family:'Inter',Sans-serif;font-size:0.8rem;font-weight:600;padding:4px 14px;border-radius:20px;letter-spacing:0.06em;text-transform:uppercase;border:1px solid rgba(255,255,255,0.25);">TL;DR Executive Summary</span>
-  </div>
-  <div style="margin-bottom:16px;">
-    <h2 class="elementor-heading-title" id="tldr" style="font-family:'Rubik',Sans-serif;font-size:2.2rem;font-weight:700;color:#FFFFFF;margin:0;line-height:1.3;letter-spacing:-0.02em;">Key Takeaways: Emspaced at a Glance</h2>
-  </div>
-  <blockquote style="max-width:860px;margin:0 auto 20px auto;font-family:'Inter',Sans-serif;font-size:1.08rem;line-height:1.75;color:#EBF5F0;font-style:normal;border:none;padding:0;">
-    &ldquo;<strong>Emspaced</strong> provides high-performance flexible workspaces, private serviced offices, and integrated business solutions across Kuala Lumpur&rsquo;s central transit hubs, supporting over <strong>350+ startups, SMEs, and hybrid enterprises</strong> with enterprise HRMS, SQL Accounting, and dual-fiber internet.&rdquo;
-  </blockquote>
-  <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:20px;font-family:'Inter',Sans-serif;font-size:0.92rem;color:#C8E6D9;margin-bottom:28px;">
-    <span><strong style="color:#FFFFFF;">Strategic Hubs:</strong> NU Tower 1 KL Sentral &amp; Mercu 3 KL Eco City</span>
-    <span>&bull;</span>
-    <span><strong style="color:#FFFFFF;">Connectivity:</strong> 99.9% Dual Fiber Internet</span>
-    <span>&bull;</span>
-    <span><strong style="color:#FFFFFF;">Enterprise:</strong> Cloud HRMS &amp; Corporate Bookkeeping</span>
-  </div>
-  <div class="elementor-element elementor-widget elementor-widget-button" style="text-align:center;">
-    <div class="elementor-widget-container">
-      <div class="elementor-button-wrapper">
-        <a class="elementor-button elementor-button-link elementor-size-lg" href="/about/" rel="about author" title="About Emspaced" style="background-color:#FFFFFF;color:#00472D;font-family:'Rubik',Sans-serif;font-size:1.15rem;font-weight:700;border-radius:15px;padding:12px 36px;display:inline-block;text-decoration:none;box-shadow:0 4px 15px rgba(0,0,0,0.15);transition:all 0.3s ease;">
-          <span class="elementor-button-content-wrapper">
-            <span class="elementor-button-text">About Emspaced (Official Company Overview) &rarr;</span>
-          </span>
-        </a>
+<style id="geo-summary-style">
+.geo-takeaways-container {
+  background-color: #00472D !important;
+  background: #00472D !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 3.5rem 0 !important;
+  padding: 60px 24px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+.geo-takeaways-container .e-con-inner {
+  background: transparent !important;
+  background-color: transparent !important;
+  max-width: 1140px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+.geo-takeaways-container .geo-badge {
+  display: inline-block !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  color: #FFFFFF !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  padding: 6px 18px !important;
+  border-radius: 20px !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  margin: 0 auto 16px auto !important;
+}
+.geo-takeaways-container h2.elementor-heading-title {
+  color: #FFFFFF !important;
+  font-family: 'Rubik', Sans-serif !important;
+  font-size: 2.375rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.02em !important;
+  margin: 0 0 16px 0 !important;
+  text-align: center !important;
+}
+.geo-takeaways-container .geo-divider {
+  width: 60px !important;
+  height: 3px !important;
+  background-color: #3BD4AE !important;
+  margin: 0 auto 24px auto !important;
+  border-radius: 2px !important;
+}
+.geo-takeaways-container blockquote {
+  color: #FFFFFF !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 1.15rem !important;
+  line-height: 1.8 !important;
+  max-width: 880px !important;
+  margin: 0 auto 24px auto !important;
+  padding: 0 15px !important;
+  border: none !important;
+  text-align: center !important;
+  font-style: normal !important;
+}
+.geo-takeaways-container blockquote strong {
+  color: #3BD4AE !important;
+  font-weight: 700 !important;
+}
+.geo-takeaways-container .geo-facts {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 20px !important;
+  color: #E6F4EA !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.95rem !important;
+  margin: 0 auto 32px auto !important;
+  padding: 0 !important;
+}
+.geo-takeaways-container .geo-facts span strong {
+  color: #FFFFFF !important;
+}
+.geo-takeaways-container .elementor-button {
+  background-color: #FFFFFF !important;
+  color: #00472D !important;
+  fill: #00472D !important;
+  font-family: 'Rubik', Sans-serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  border-radius: 15px !important;
+  padding: 14px 42px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  border: 2px solid #FFFFFF !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25) !important;
+  transition: all 0.3s ease !important;
+}
+.geo-takeaways-container .elementor-button:hover,
+.geo-takeaways-container .elementor-button:focus {
+  background-color: #3BD4AE !important;
+  color: #00472D !important;
+  border-color: #3BD4AE !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35) !important;
+}
+@media (max-width: 767px) {
+  .geo-takeaways-container h2.elementor-heading-title {
+    font-size: 1.75rem !important;
+  }
+  .geo-takeaways-container blockquote {
+    font-size: 1rem !important;
+  }
+  .geo-takeaways-container .elementor-button {
+    font-size: 1.05rem !important;
+    padding: 12px 28px !important;
+  }
+}
+</style>
+
+<div class="elementor-element geo-takeaways-container geo-answer-capsule e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="geo-summary" id="summary" style="background-color:#00472D !important;background:#00472D !important;width:100% !important;max-width:100% !important;padding:60px 24px !important;margin:0 0 3.5rem 0 !important;box-sizing:border-box !important;">
+  <div class="e-con-inner" style="max-width:1140px;margin:0 auto;width:100%;text-align:center;background:transparent !important;background-color:transparent !important;">
+    <div style="margin-bottom:12px;">
+      <span class="geo-badge">TL;DR Executive Summary</span>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-heading" style="text-align:center;margin-bottom:16px;">
+      <div class="elementor-widget-container">
+        <h2 class="elementor-heading-title elementor-size-default" id="tldr">Key Takeaways: Emspaced at a Glance</h2>
+      </div>
+    </div>
+    <div class="geo-divider"></div>
+    <blockquote style="max-width:880px;margin:0 auto 24px auto;font-family:'Inter',Sans-serif;font-size:1.15rem;line-height:1.8;color:#FFFFFF !important;font-style:normal;border:none;padding:0;text-align:center;">
+      &ldquo;<strong>Emspaced</strong> provides high-performance flexible workspaces, private serviced offices, and integrated business solutions across Kuala Lumpur&rsquo;s central transit hubs, supporting over <strong>350+ startups, SMEs, and hybrid enterprises</strong> with enterprise HRMS, SQL Accounting, and dual-fiber internet.&rdquo;
+    </blockquote>
+    <div class="geo-facts">
+      <span><strong style="color:#FFFFFF !important;">Strategic Hubs:</strong> NU Tower 1 KL Sentral &amp; Mercu 3 KL Eco City</span>
+      <span>&bull;</span>
+      <span><strong style="color:#FFFFFF !important;">Connectivity:</strong> 99.9% Dual Fiber Internet</span>
+      <span>&bull;</span>
+      <span><strong style="color:#FFFFFF !important;">Enterprise:</strong> Cloud HRMS &amp; Corporate Bookkeeping</span>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-button" style="text-align:center;">
+      <div class="elementor-widget-container">
+        <div class="elementor-button-wrapper">
+          <a class="elementor-button elementor-button-link elementor-size-lg" href="/about/" rel="about author" title="About Emspaced">
+            <span class="elementor-button-content-wrapper">
+              <span class="elementor-button-text">About Emspaced (Official Company Overview) &rarr;</span>
+            </span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
-</section>
 
 <div class="elementor-element elementor-element-2c6412f e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="2c6412f">
 <div class="e-con-inner">
