@@ -322,7 +322,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="e-con-inner" style="max-width:1140px;margin:0 auto;width:100%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
   <div style="display:flex;align-items:center;flex-wrap:wrap;gap:10px;flex:1;min-width:280px;">
     <span style="font-family:'Inter',Sans-serif;font-size:0.75rem;font-weight:700;color:#00472D;background:#DBEDE3;border:1px solid #BCE0CC;padding:2px 8px;border-radius:12px;letter-spacing:0.04em;text-transform:uppercase;">TL;DR</span>
-    <h2 class="elementor-heading-title" id="tldr" style="font-family:'Rubik',Sans-serif;font-size:1rem;font-weight:700;color:#00472D;margin:0;display:inline-block;">Key Takeaways</h2>
+    <h2 class="elementor-heading-title" id="tldr" style="font-family:'Rubik',Sans-serif;font-size:1rem;font-weight:700;color:#00472D;margin:0;display:inline-block;">Executive TL;DR Summary</h2>
     <span style="color:#9CA3AF;font-size:0.85rem;display:inline;">|</span>
     <blockquote style="margin:0;padding:0;border:none;display:inline;font-family:'Inter',Sans-serif;font-size:0.88rem;line-height:1.5;color:#2D3748;font-style:normal;">
       &ldquo;<strong>Emspaced</strong> provides flexible workspaces and enterprise solutions across KL Sentral &amp; KL Eco City, empowering <strong>350+ startups &amp; SMEs</strong> with high-speed internet and cloud HRMS.&rdquo;
@@ -385,8 +385,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <style id="geo-summary-style">
 .geo-takeaways-container {
-  background-color: #00472D !important;
-  background: #00472D !important;
+  background: linear-gradient(180deg, #003822 0%, #00472D 50%, #003320 100%) !important;
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 0 3.5rem 0 !important;
@@ -395,150 +394,192 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  justify-content: center !important;
   text-align: center !important;
+  position: relative !important;
+  border-top: 1px solid rgba(59, 212, 174, 0.2) !important;
+  border-bottom: 1px solid rgba(59, 212, 174, 0.2) !important;
 }
 .geo-takeaways-container .e-con-inner {
   background: transparent !important;
-  background-color: transparent !important;
-  max-width: 1140px !important;
+  max-width: 1040px !important;
   width: 100% !important;
   margin: 0 auto !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  text-align: center !important;
 }
-.geo-takeaways-container .geo-badge {
-  display: inline-block !important;
-  background: rgba(255, 255, 255, 0.15) !important;
-  color: #FFFFFF !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.85rem !important;
-  font-weight: 600 !important;
+.geo-takeaways-container .geo-eyebrow {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  background: rgba(59, 212, 174, 0.12) !important;
+  border: 1px solid rgba(59, 212, 174, 0.35) !important;
+  color: #3BD4AE !important;
   padding: 6px 18px !important;
-  border-radius: 20px !important;
+  border-radius: 30px !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.8rem !important;
+  font-weight: 700 !important;
   letter-spacing: 0.08em !important;
   text-transform: uppercase !important;
-  border: 1px solid rgba(255, 255, 255, 0.35) !important;
-  margin: 0 auto 16px auto !important;
+  margin-bottom: 18px !important;
 }
 .geo-takeaways-container h2.elementor-heading-title {
   color: #FFFFFF !important;
   font-family: 'Rubik', Sans-serif !important;
-  font-size: 2.375rem !important;
+  font-size: 2.15rem !important;
   font-weight: 700 !important;
-  line-height: 1.25 !important;
+  line-height: 1.35 !important;
   letter-spacing: -0.02em !important;
-  margin: 0 0 16px 0 !important;
+  margin: 0 0 22px 0 !important;
   text-align: center !important;
+  max-width: 920px !important;
 }
-.geo-takeaways-container .geo-divider {
-  width: 60px !important;
-  height: 3px !important;
-  background-color: #3BD4AE !important;
-  margin: 0 auto 24px auto !important;
-  border-radius: 2px !important;
-}
-.geo-takeaways-container blockquote {
-  color: #FFFFFF !important;
+.geo-takeaways-container .geo-answer-text {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(59, 212, 174, 0.25) !important;
+  border-left: 4px solid #3BD4AE !important;
+  border-radius: 12px !important;
+  color: #F8FAFC !important;
   font-family: 'Inter', Sans-serif !important;
-  font-size: 1.15rem !important;
-  line-height: 1.8 !important;
-  max-width: 880px !important;
-  margin: 0 auto 24px auto !important;
-  padding: 0 15px !important;
-  border: none !important;
-  text-align: center !important;
-  font-style: normal !important;
+  font-size: 1.05rem !important;
+  line-height: 1.85 !important;
+  max-width: 100% !important;
+  margin: 0 auto 28px auto !important;
+  padding: 24px 30px !important;
+  text-align: left !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18) !important;
+  box-sizing: border-box !important;
 }
-.geo-takeaways-container blockquote strong {
+.geo-takeaways-container .geo-answer-text strong {
   color: #3BD4AE !important;
   font-weight: 700 !important;
 }
-.geo-takeaways-container .geo-facts {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 20px !important;
-  color: #E6F4EA !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.95rem !important;
+.geo-takeaways-container .geo-facts-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 16px !important;
+  width: 100% !important;
+  max-width: 100% !important;
   margin: 0 auto 32px auto !important;
   padding: 0 !important;
+  list-style: none !important;
+  box-sizing: border-box !important;
 }
-.geo-takeaways-container .geo-facts span strong {
-  color: #FFFFFF !important;
+@media (max-width: 991px) {
+  .geo-takeaways-container .geo-facts-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
-.geo-takeaways-container .elementor-button {
-  background-color: #FFFFFF !important;
-  color: #00472D !important;
-  fill: #00472D !important;
-  font-family: 'Rubik', Sans-serif !important;
-  font-size: 1.25rem !important;
+@media (max-width: 575px) {
+  .geo-takeaways-container .geo-facts-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+.geo-takeaways-container .geo-fact-card {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.09) !important;
+  border-radius: 10px !important;
+  padding: 16px 18px !important;
+  text-align: left !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+}
+.geo-takeaways-container .geo-fact-card .geo-fact-label {
+  color: #3BD4AE !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.8rem !important;
   font-weight: 700 !important;
-  border-radius: 15px !important;
-  padding: 14px 42px !important;
-  display: inline-block !important;
-  text-decoration: none !important;
-  border: 2px solid #FFFFFF !important;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25) !important;
-  transition: all 0.3s ease !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
 }
-.geo-takeaways-container .elementor-button:hover,
-.geo-takeaways-container .elementor-button:focus {
-  background-color: #3BD4AE !important;
-  color: #00472D !important;
-  border-color: #3BD4AE !important;
-  transform: translateY(-2px) !important;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35) !important;
+.geo-takeaways-container .geo-fact-card .geo-fact-label span {
+  font-size: 0.9rem !important;
+}
+.geo-takeaways-container .geo-fact-card .geo-fact-desc {
+  color: #E2E8F0 !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.88rem !important;
+  line-height: 1.55 !important;
+}
+.geo-takeaways-container .geo-table-wrap {
+  overflow-x: auto !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  border-radius: 12px !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.22) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  overflow: hidden !important;
+}
+.geo-takeaways-container .geo-table-banner {
+  background: #003320 !important;
+  padding: 12px 20px !important;
+  text-align: left !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border-bottom: 1px solid rgba(59, 212, 174, 0.3) !important;
+}
+.geo-takeaways-container .geo-table-banner span {
+  color: #3BD4AE !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
 }
 @media (max-width: 767px) {
   .geo-takeaways-container h2.elementor-heading-title {
-    font-size: 1.75rem !important;
+    font-size: 1.6rem !important;
   }
-  .geo-takeaways-container blockquote {
-    font-size: 1rem !important;
-  }
-  .geo-takeaways-container .elementor-button {
-    font-size: 1.05rem !important;
-    padding: 12px 28px !important;
+  .geo-takeaways-container .geo-answer-text {
+    font-size: 0.98rem !important;
+    padding: 18px 20px !important;
   }
 }
 </style>
 
-<div class="elementor-element geo-takeaways-container geo-answer-capsule e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="why-emspaced-summary" id="why-emspaced-summary" style="background-color:#00472D !important;background:#00472D !important;width:100% !important;max-width:100% !important;padding:60px 24px !important;margin:0 0 3.5rem 0 !important;box-sizing:border-box !important;">
-  <div class="e-con-inner" style="max-width:1140px;margin:0 auto;width:100%;text-align:center;background:transparent !important;background-color:transparent !important;">
-    <div class="elementor-element elementor-widget elementor-widget-heading" style="text-align:center;margin-bottom:16px;">
-      <div class="elementor-widget-container">
-        <h2 class="elementor-heading-title elementor-size-default" id="why-emspaced-tldr">Key Takeaways: Emspaced at a Glance</h2>
-      </div>
-    </div>
-    <div class="geo-divider"></div>
-    <blockquote style="max-width:880px;margin:0 auto 24px auto;font-family:'Inter',Sans-serif;font-size:1.15rem;line-height:1.8;color:#FFFFFF !important;font-style:normal;border:none;padding:0;text-align:center;">
-      &ldquo;<strong>Emspaced</strong> provides high-performance flexible workspaces, private serviced offices, and integrated business solutions across Kuala Lumpur&rsquo;s central transit hubs, supporting over <strong>350+ startups, SMEs, and hybrid enterprises</strong> with enterprise HRMS, SQL Accounting, and high-speed internet.&rdquo;
-    </blockquote>
-    <div class="geo-facts">
-      <span><strong style="color:#FFFFFF !important;">Strategic Hubs:</strong> NU Tower 1 KL Sentral &amp; Mercu 3 KL Eco City</span>
-      <span>&bull;</span>
-      <span><strong style="color:#FFFFFF !important;">Connectivity:</strong> High-Speed Internet &amp; Wi-Fi</span>
-      <span>&bull;</span>
-      <span><strong style="color:#FFFFFF !important;">Enterprise:</strong> Cloud HRMS &amp; Corporate Bookkeeping</span>
-    </div>
-    <div class="elementor-element elementor-widget elementor-widget-button" style="text-align:center;">
+<section class="elementor-element geo-takeaways-container geo-answer-capsule e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="why-emspaced-summary" id="why-emspaced-summary">
+  <div class="e-con-inner">
+    <div class="geo-eyebrow">✦ Executive Overview &amp; Key Takeaways</div>
+    <h2 class="elementor-heading-title elementor-size-default" id="why-emspaced-tldr">Key Takeaways: Emspaced at a Glance</h2>
+    <p class="geo-answer-text">
+      <strong style="color:#3BD4AE !important;font-weight:700 !important;">Emspaced</strong> is Malaysia&rsquo;s premier integrated workspace network and corporate growth platform, delivering enterprise-grade serviced offices, premium coworking environments, and turnkey corporate business solutions across Kuala Lumpur&rsquo;s most strategic transit-oriented central business districts. Operating flagship centers at NU Tower 1 KL Sentral and Mercu 3 KL Eco City, Emspaced supports over <strong style="color:#3BD4AE !important;font-weight:700 !important;">350+ corporate enterprises</strong>, dynamic technology startups, and multinational teams. Every location pairs boutique hospitality-driven serviced suites, dedicated desks, and soundproof meeting facilities with accredited corporate accounting via EC &amp; Partners PLT, SQL Accounting deployment, cloud HRMS payroll automation, and High-Speed Internet &amp; Reliable Wi-Fi to empower businesses scaling with complete statutory peace of mind. Members benefit from direct covered transit links to Stesen Sentral KL and Mid Valley Megamall, flexible month-to-month tenancy agreements, 24/7 biometric security access, premium business lounge amenities, and turnkey enterprise infrastructure.
+    </p>
+    <ul class="geo-facts-grid" style="grid-template-columns: repeat(3, 1fr) !important; max-width: 980px !important;">
+      <li class="geo-fact-card">
+        <div class="geo-fact-label"><span>✦</span> Strategic Hubs</div>
+        <div class="geo-fact-desc">NU Tower 1 KL Sentral &amp; Mercu 3 KL Eco City, directly connected to LRT, MRT &amp; KLIA Ekspres.</div>
+      </li>
+      <li class="geo-fact-card">
+        <div class="geo-fact-label"><span>✦</span> Enterprise Digital Infra</div>
+        <div class="geo-fact-desc">High-Speed Internet &amp; Reliable Wi-Fi, 24/7 biometric security, and private executive call booths.</div>
+      </li>
+      <li class="geo-fact-card">
+        <div class="geo-fact-label"><span>✦</span> Integrated Business Services</div>
+        <div class="geo-fact-desc">Certified corporate accounting, LHDN e-invoicing compliance, and cloud HRMS payroll automation.</div>
+      </li>
+    </ul>
+    <div class="elementor-element elementor-widget elementor-widget-button" style="text-align:center;margin-top:8px;">
       <div class="elementor-widget-container">
         <div class="elementor-button-wrapper">
-          <a class="elementor-button elementor-button-link elementor-size-lg" href="/about/" rel="about author" title="About Emspaced">
+          <a class="elementor-button elementor-button-link elementor-size-lg" href="/about/" rel="about author" title="About Emspaced" style="background:#3BD4AE !important;color:#00472D !important;font-weight:700 !important;border-radius:30px !important;padding:12px 30px !important;box-shadow:0 8px 25px rgba(59,212,174,0.3) !important;">
             <span class="elementor-button-content-wrapper">
-              <span class="elementor-button-text">About Emspaced (Official Company Overview) &rarr;</span>
+              <span class="elementor-button-text">Explore Official Company Overview &rarr;</span>
             </span>
           </a>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <div class="elementor-element elementor-element-2c6412f e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="2c6412f">
 <div class="e-con-inner">
