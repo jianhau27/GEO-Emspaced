@@ -321,223 +321,242 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <style id="geo-summary-style">
 .geo-takeaways-container {
-  background: linear-gradient(180deg, #003822 0%, #00472D 50%, #003320 100%) !important;
+  background-color: #00472D !important;
+  background: #00472D !important;
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 0 3.5rem 0 !important;
-  padding: 60px 24px !important;
+  padding: 64px 24px !important;
   box-sizing: border-box !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
   text-align: center !important;
-  position: relative !important;
-  border-top: 1px solid rgba(59, 212, 174, 0.2) !important;
-  border-bottom: 1px solid rgba(59, 212, 174, 0.2) !important;
 }
 .geo-takeaways-container .e-con-inner {
   background: transparent !important;
-  max-width: 1040px !important;
+  max-width: 1060px !important;
   width: 100% !important;
   margin: 0 auto !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
 }
-.geo-takeaways-container .geo-eyebrow {
-  display: inline-flex !important;
-  align-items: center !important;
-  gap: 8px !important;
-  background: rgba(59, 212, 174, 0.12) !important;
-  border: 1px solid rgba(59, 212, 174, 0.35) !important;
-  color: #3BD4AE !important;
-  padding: 6px 18px !important;
-  border-radius: 30px !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.8rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.08em !important;
-  text-transform: uppercase !important;
-  margin-bottom: 18px !important;
-}
 .geo-takeaways-container h2.elementor-heading-title {
   color: #FFFFFF !important;
   font-family: 'Rubik', Sans-serif !important;
-  font-size: 2.15rem !important;
-  font-weight: 700 !important;
-  line-height: 1.35 !important;
-  letter-spacing: -0.02em !important;
-  margin: 0 0 22px 0 !important;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.015em !important;
+  margin: 0 0 28px 0 !important;
   text-align: center !important;
-  max-width: 920px !important;
+  max-width: 860px !important;
+}
+.geo-takeaways-container h2.elementor-heading-title::after {
+  content: "" !important;
+  display: block !important;
+  width: 48px !important;
+  height: 2px !important;
+  background-color: #3BD4AE !important;
+  margin: 18px auto 0 auto !important;
 }
 .geo-takeaways-container .geo-answer-text {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border: 1px solid rgba(59, 212, 174, 0.25) !important;
-  border-left: 4px solid #3BD4AE !important;
-  border-radius: 12px !important;
-  color: #F8FAFC !important;
+  background: transparent !important;
+  border: none !important;
+  color: rgba(255, 255, 255, 0.9) !important;
   font-family: 'Inter', Sans-serif !important;
-  font-size: 1.05rem !important;
-  line-height: 1.85 !important;
-  max-width: 100% !important;
-  margin: 0 auto 28px auto !important;
-  padding: 24px 30px !important;
-  text-align: left !important;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18) !important;
-  box-sizing: border-box !important;
+  font-size: 1.04rem !important;
+  line-height: 1.8 !important;
+  max-width: 880px !important;
+  margin: 0 auto 36px auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  box-shadow: none !important;
 }
 .geo-takeaways-container .geo-answer-text strong {
-  color: #3BD4AE !important;
-  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
 }
 .geo-takeaways-container .geo-facts-grid {
   display: grid !important;
   grid-template-columns: repeat(4, 1fr) !important;
-  gap: 16px !important;
+  gap: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 auto 32px auto !important;
-  padding: 0 !important;
+  margin: 0 auto 36px auto !important;
+  padding: 26px 0 !important;
   list-style: none !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
   box-sizing: border-box !important;
+}
+.geo-takeaways-container .geo-fact-card {
+  background: transparent !important;
+  border: none !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 0 !important;
+  padding: 4px 22px !important;
+  text-align: left !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+}
+.geo-takeaways-container .geo-fact-card:first-child {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+.geo-takeaways-container .geo-fact-card:last-child {
+  padding-right: 0 !important;
+}
+.geo-takeaways-container .geo-fact-card strong {
+  display: block !important;
+  color: #3BD4AE !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.76rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  margin-bottom: 6px !important;
 }
 @media (max-width: 991px) {
   .geo-takeaways-container .geo-facts-grid {
     grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+  .geo-takeaways-container .geo-fact-card {
+    border-left: none !important;
+    padding: 0 !important;
   }
 }
 @media (max-width: 575px) {
   .geo-takeaways-container .geo-facts-grid {
     grid-template-columns: 1fr !important;
+    gap: 16px !important;
   }
-}
-.geo-takeaways-container .geo-fact-card {
-  background: rgba(255, 255, 255, 0.04) !important;
-  border: 1px solid rgba(255, 255, 255, 0.09) !important;
-  border-radius: 10px !important;
-  padding: 16px 18px !important;
-  text-align: left !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: flex-start !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-label {
-  color: #3BD4AE !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.8rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
-  margin-bottom: 6px !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 6px !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-label span {
-  font-size: 0.9rem !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-desc {
-  color: #E2E8F0 !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.88rem !important;
-  line-height: 1.55 !important;
 }
 .geo-takeaways-container .geo-table-wrap {
   overflow-x: auto !important;
   margin: 0 auto !important;
   width: 100% !important;
   max-width: 100% !important;
-  border-radius: 12px !important;
+  border-radius: 8px !important;
   background: #FFFFFF !important;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.22) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  overflow: hidden !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12) !important;
+  border: none !important;
 }
-.geo-takeaways-container .geo-table-banner {
-  background: #003320 !important;
-  padding: 12px 20px !important;
-  text-align: left !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  border-bottom: 1px solid rgba(59, 212, 174, 0.3) !important;
-}
-.geo-takeaways-container .geo-table-banner span {
-  color: #3BD4AE !important;
+.geo-takeaways-container .geo-table-wrap table {
+  width: 100% !important;
+  border-collapse: collapse !important;
   font-family: 'Inter', Sans-serif !important;
-  font-size: 0.82rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.06em !important;
+  font-size: 0.9rem !important;
+  text-align: left !important;
+  background: #FFFFFF !important;
+  margin: 0 !important;
+}
+.geo-takeaways-container .geo-table-wrap thead tr {
+  background: #F8FAFC !important;
+  color: #0F172A !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+.geo-takeaways-container .geo-table-wrap thead th {
+  padding: 14px 18px !important;
+  font-weight: 600 !important;
+  font-size: 0.78rem !important;
   text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #475569 !important;
+  border: none !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody tr {
+  border-bottom: 1px solid #F1F5F9 !important;
+  background: #FFFFFF !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody tr:last-child {
+  border-bottom: none !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody td {
+  padding: 14px 18px !important;
+  color: #334155 !important;
+  border: none !important;
+  line-height: 1.5 !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody td:first-child {
+  font-weight: 600 !important;
+  color: #0F172A !important;
+}
+.geo-takeaways-container .elementor-button {
+  background-color: #FFFFFF !important;
+  color: #00472D !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  padding: 12px 28px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  border: 1px solid #FFFFFF !important;
+  box-shadow: none !important;
+  transition: opacity 0.2s ease !important;
+}
+.geo-takeaways-container .elementor-button:hover {
+  opacity: 0.92 !important;
 }
 @media (max-width: 767px) {
+  .geo-takeaways-container {
+    padding: 48px 20px !important;
+  }
   .geo-takeaways-container h2.elementor-heading-title {
-    font-size: 1.6rem !important;
+    font-size: 1.55rem !important;
   }
   .geo-takeaways-container .geo-answer-text {
-    font-size: 0.98rem !important;
-    padding: 18px 20px !important;
+    font-size: 0.96rem !important;
+    text-align: left !important;
   }
 }
 </style>
 <section aria-labelledby="location-answer" class="elementor-element geo-takeaways-container geo-answer-capsule e-flex e-con-boxed e-con e-parent" data-element_type="container">
   <div class="e-con-inner">
-    <div class="geo-eyebrow">✦ Transit-Oriented Hubs in Kuala Lumpur</div>
     <h2 class="elementor-heading-title elementor-size-default" id="location-answer">Where Are Emspaced Coworking Spaces Located in Kuala Lumpur?</h2>
     <p class="geo-answer-text">
-      <strong style="color:#3BD4AE !important;font-weight:700 !important;">Emspaced</strong> operates two premier transit-oriented coworking and serviced office centers situated in Kuala Lumpur’s most vibrant commercial and transport corridors: <strong style="color:#3BD4AE !important;font-weight:700 !important;">KL Sentral</strong> and <strong style="color:#3BD4AE !important;font-weight:700 !important;">KL Eco City</strong>. Our KL Sentral flagship is located on Levels 23A and 24 of Menara Allianz Sentral (NU Tower 1), offering direct covered pedestrian access to Stesen Sentral Kuala Lumpur with direct connections to the KLIA Ekspres airport train, LRT, MRT, Monorail, and KTM Komuter lines. Our KL Eco City centre is situated on Level 5 of Mercu 3 along Jalan Bangsar, directly linked by air-conditioned pedestrian bridges to Abdullah Hukum LRT and KTM stations and Mid Valley Megamall. Both locations feature enterprise-grade private office suites, flexible hot desks, modern meeting facilities, and High-Speed Internet &amp; Reliable Wi-Fi. Members enjoy strategic CBD business addresses, 24/7 biometric security access, and walkability to world-class dining, retail, and international business amenities across Kuala Lumpur.
+      <strong>Emspaced</strong> operates two premier transit-oriented coworking and serviced office hubs in Kuala Lumpur: <strong>Menara Allianz Sentral (NU Tower 1, Level 23A &amp; Level 24)</strong> in KL Sentral and <strong>Mercu 3 (Level 5)</strong> in KL Eco City. Both MSC-status and GBI-certified Grade-A corporate office towers feature direct covered pedestrian links to major rail networks—including KL Sentral LRT, MRT, Monorail, KTM Komuter, KLIA Ekspres, and the Abdullah Hukum LRT/KTM interchange—plus immediate walkability to Nu Sentral, Mid Valley Megamall, and The Gardens Mall. Supporting over <strong>350+ corporate teams</strong>, both centres provide private serviced suites, dedicated desks, hot desking lounges, executive boardrooms, and High-Speed Internet &amp; Reliable Wi-Fi designed for agile startups, SMEs, and regional headquarters seeking prestigious business addresses, flexible lease commitments, 24/7 biometric security access, and comprehensive front-desk administrative support.
     </p>
     <ul class="geo-facts-grid">
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> KL Sentral Centre</div>
-        <div class="geo-fact-desc">Level 23A & 24, NU Tower 1 (Allianz Sentral), integrated with Stesen Sentral KL.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> KL Eco City Centre</div>
-        <div class="geo-fact-desc">Level 5, Mercu 3, Jalan Bangsar, with covered bridge to Mid Valley & Abdullah Hukum LRT.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Transit Proximity</div>
-        <div class="geo-fact-desc">28-minute direct KLIA Ekspres access from KL Sentral; direct LRT/KTM from KL Eco City.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Core Workspace Tiers</div>
-        <div class="geo-fact-desc">Serviced private offices, dedicated desks, hot desks, virtual offices, and meeting suites.</div>
-      </li>
+      <li class="geo-fact-card"><strong>KL Sentral Flagship:</strong> Level 23A & 24, NU Tower 1 — 28-minute direct rail access to KLIA via Stesen Sentral.</li>
+      <li class="geo-fact-card"><strong>KL Eco City Hub:</strong> Level 5, Mercu 3 — Direct covered link bridge to Abdullah Hukum LRT/KTM & Mid Valley.</li>
+      <li class="geo-fact-card"><strong>Workspace Formats:</strong> Private offices (RM999–RM1,199/pax), Dedicated Desks (RM899–RM999/pax), and Hot Desks (RM499/mo).</li>
+      <li class="geo-fact-card"><strong>Grade-A Infrastructure:</strong> High-Speed Internet & Reliable Wi-Fi, 24/7 biometric security, and soundproof booths.</li>
     </ul>
     <div class="geo-table-wrap">
-      <div class="geo-table-banner">
-        <span>✦ Flagship Centres Comparison &amp; Connectivity</span>
-      </div>
-      <table style="width:100%;border-collapse:collapse;font-family:'Inter',Sans-serif;font-size:0.92rem;text-align:left;background:#FFFFFF;border:1px solid #C8D5DC;border-radius:6px;overflow:hidden;">
+      <table>
     <thead>
-      <tr style="background:#003822;color:#FFFFFF;">
-        <th style="padding:10px 14px;font-family:'Rubik',Sans-serif;font-weight:600;">Feature</th>
-        <th style="padding:10px 14px;font-family:'Rubik',Sans-serif;font-weight:600;">Emspaced KL Sentral</th>
-        <th style="padding:10px 14px;font-family:'Rubik',Sans-serif;font-weight:600;">Emspaced KL Eco City</th>
+      <tr>
+        <th>Feature</th>
+        <th>Emspaced KL Sentral</th>
+        <th>Emspaced KL Eco City</th>
       </tr>
     </thead>
     <tbody>
-      <tr style="border-bottom:1px solid #E2E8F0;">
-        <td style="padding:10px 14px;font-weight:600;color:#00472D;">Prime Address</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Level 23A, Menara Allianz Sentral (NU Tower 1)</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Level 5, Mercu 3, Jalan Bangsar</td>
+      <tr>
+        <td>Prime Address</td>
+        <td>Level 23A, Menara Allianz Sentral (NU Tower 1)</td>
+        <td>Level 5, Mercu 3, Jalan Bangsar</td>
       </tr>
-      <tr style="border-bottom:1px solid #E2E8F0;background:#F9FAFD;">
-        <td style="padding:10px 14px;font-weight:600;color:#00472D;">Transit Connections</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">LRT Kelana Jaya, MRT Muzium Negara, Monorail, KLIA Express (28 mins)</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">LRT Abdullah Hukum, KTM Komuter, Direct Link to Mid Valley Megamall</td>
+      <tr>
+        <td>Transit Connections</td>
+        <td>LRT Kelana Jaya, MRT Muzium Negara, Monorail, KLIA Express (28 mins)</td>
+        <td>LRT Abdullah Hukum, KTM Komuter, Direct Link to Mid Valley Megamall</td>
       </tr>
-      <tr style="border-bottom:1px solid #E2E8F0;">
-        <td style="padding:10px 14px;font-weight:600;color:#00472D;">Available Spaces</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Private Offices, Executive Suites, Event Spaces, Hot Desks</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Serviced Offices, Meeting Suites, Dedicated Desks, Enterprise Units</td>
+      <tr>
+        <td>Available Spaces</td>
+        <td>Private Offices, Executive Suites, Event Spaces, Hot Desks</td>
+        <td>Serviced Offices, Meeting Suites, Dedicated Desks, Enterprise Units</td>
       </tr>
-      <tr style="background:#F9FAFD;">
-        <td style="padding:10px 14px;font-weight:600;color:#00472D;">Connectivity &amp; Wi-Fi</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">High-Speed Internet &amp; Wi-Fi</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">High-Speed Internet &amp; Wi-Fi</td>
+      <tr>
+        <td>Connectivity &amp; Wi-Fi</td>
+        <td>High-Speed Internet &amp; Wi-Fi</td>
+        <td>High-Speed Internet &amp; Wi-Fi</td>
       </tr>
     </tbody>
   </table>

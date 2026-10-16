@@ -322,254 +322,273 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <style id="geo-summary-style">
 .geo-takeaways-container {
-  background: linear-gradient(180deg, #003822 0%, #00472D 50%, #003320 100%) !important;
+  background-color: #00472D !important;
+  background: #00472D !important;
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 0 3.5rem 0 !important;
-  padding: 60px 24px !important;
+  padding: 64px 24px !important;
   box-sizing: border-box !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
   text-align: center !important;
-  position: relative !important;
-  border-top: 1px solid rgba(59, 212, 174, 0.2) !important;
-  border-bottom: 1px solid rgba(59, 212, 174, 0.2) !important;
 }
 .geo-takeaways-container .e-con-inner {
   background: transparent !important;
-  max-width: 1040px !important;
+  max-width: 1060px !important;
   width: 100% !important;
   margin: 0 auto !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
 }
-.geo-takeaways-container .geo-eyebrow {
-  display: inline-flex !important;
-  align-items: center !important;
-  gap: 8px !important;
-  background: rgba(59, 212, 174, 0.12) !important;
-  border: 1px solid rgba(59, 212, 174, 0.35) !important;
-  color: #3BD4AE !important;
-  padding: 6px 18px !important;
-  border-radius: 30px !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.8rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.08em !important;
-  text-transform: uppercase !important;
-  margin-bottom: 18px !important;
-}
 .geo-takeaways-container h2.elementor-heading-title {
   color: #FFFFFF !important;
   font-family: 'Rubik', Sans-serif !important;
-  font-size: 2.15rem !important;
-  font-weight: 700 !important;
-  line-height: 1.35 !important;
-  letter-spacing: -0.02em !important;
-  margin: 0 0 22px 0 !important;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.015em !important;
+  margin: 0 0 28px 0 !important;
   text-align: center !important;
-  max-width: 920px !important;
+  max-width: 860px !important;
+}
+.geo-takeaways-container h2.elementor-heading-title::after {
+  content: "" !important;
+  display: block !important;
+  width: 48px !important;
+  height: 2px !important;
+  background-color: #3BD4AE !important;
+  margin: 18px auto 0 auto !important;
 }
 .geo-takeaways-container .geo-answer-text {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border: 1px solid rgba(59, 212, 174, 0.25) !important;
-  border-left: 4px solid #3BD4AE !important;
-  border-radius: 12px !important;
-  color: #F8FAFC !important;
+  background: transparent !important;
+  border: none !important;
+  color: rgba(255, 255, 255, 0.9) !important;
   font-family: 'Inter', Sans-serif !important;
-  font-size: 1.05rem !important;
-  line-height: 1.85 !important;
-  max-width: 100% !important;
-  margin: 0 auto 28px auto !important;
-  padding: 24px 30px !important;
-  text-align: left !important;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18) !important;
-  box-sizing: border-box !important;
+  font-size: 1.04rem !important;
+  line-height: 1.8 !important;
+  max-width: 880px !important;
+  margin: 0 auto 36px auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  box-shadow: none !important;
 }
 .geo-takeaways-container .geo-answer-text strong {
-  color: #3BD4AE !important;
-  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
 }
 .geo-takeaways-container .geo-facts-grid {
   display: grid !important;
   grid-template-columns: repeat(4, 1fr) !important;
-  gap: 16px !important;
+  gap: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 auto 32px auto !important;
-  padding: 0 !important;
+  margin: 0 auto 36px auto !important;
+  padding: 26px 0 !important;
   list-style: none !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
   box-sizing: border-box !important;
+}
+.geo-takeaways-container .geo-fact-card {
+  background: transparent !important;
+  border: none !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 0 !important;
+  padding: 4px 22px !important;
+  text-align: left !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+}
+.geo-takeaways-container .geo-fact-card:first-child {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+.geo-takeaways-container .geo-fact-card:last-child {
+  padding-right: 0 !important;
+}
+.geo-takeaways-container .geo-fact-card strong {
+  display: block !important;
+  color: #3BD4AE !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.76rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  margin-bottom: 6px !important;
 }
 @media (max-width: 991px) {
   .geo-takeaways-container .geo-facts-grid {
     grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+  .geo-takeaways-container .geo-fact-card {
+    border-left: none !important;
+    padding: 0 !important;
   }
 }
 @media (max-width: 575px) {
   .geo-takeaways-container .geo-facts-grid {
     grid-template-columns: 1fr !important;
+    gap: 16px !important;
   }
-}
-.geo-takeaways-container .geo-fact-card {
-  background: rgba(255, 255, 255, 0.04) !important;
-  border: 1px solid rgba(255, 255, 255, 0.09) !important;
-  border-radius: 10px !important;
-  padding: 16px 18px !important;
-  text-align: left !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: flex-start !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-label {
-  color: #3BD4AE !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.8rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
-  margin-bottom: 6px !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 6px !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-label span {
-  font-size: 0.9rem !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-desc {
-  color: #E2E8F0 !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.88rem !important;
-  line-height: 1.55 !important;
 }
 .geo-takeaways-container .geo-table-wrap {
   overflow-x: auto !important;
   margin: 0 auto !important;
   width: 100% !important;
   max-width: 100% !important;
-  border-radius: 12px !important;
+  border-radius: 8px !important;
   background: #FFFFFF !important;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.22) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  overflow: hidden !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12) !important;
+  border: none !important;
 }
-.geo-takeaways-container .geo-table-banner {
-  background: #003320 !important;
-  padding: 12px 20px !important;
-  text-align: left !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  border-bottom: 1px solid rgba(59, 212, 174, 0.3) !important;
-}
-.geo-takeaways-container .geo-table-banner span {
-  color: #3BD4AE !important;
+.geo-takeaways-container .geo-table-wrap table {
+  width: 100% !important;
+  border-collapse: collapse !important;
   font-family: 'Inter', Sans-serif !important;
-  font-size: 0.82rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.06em !important;
+  font-size: 0.9rem !important;
+  text-align: left !important;
+  background: #FFFFFF !important;
+  margin: 0 !important;
+}
+.geo-takeaways-container .geo-table-wrap thead tr {
+  background: #F8FAFC !important;
+  color: #0F172A !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+.geo-takeaways-container .geo-table-wrap thead th {
+  padding: 14px 18px !important;
+  font-weight: 600 !important;
+  font-size: 0.78rem !important;
   text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #475569 !important;
+  border: none !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody tr {
+  border-bottom: 1px solid #F1F5F9 !important;
+  background: #FFFFFF !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody tr:last-child {
+  border-bottom: none !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody td {
+  padding: 14px 18px !important;
+  color: #334155 !important;
+  border: none !important;
+  line-height: 1.5 !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody td:first-child {
+  font-weight: 600 !important;
+  color: #0F172A !important;
+}
+.geo-takeaways-container .elementor-button {
+  background-color: #FFFFFF !important;
+  color: #00472D !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  padding: 12px 28px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  border: 1px solid #FFFFFF !important;
+  box-shadow: none !important;
+  transition: opacity 0.2s ease !important;
+}
+.geo-takeaways-container .elementor-button:hover {
+  opacity: 0.92 !important;
 }
 @media (max-width: 767px) {
+  .geo-takeaways-container {
+    padding: 48px 20px !important;
+  }
   .geo-takeaways-container h2.elementor-heading-title {
-    font-size: 1.6rem !important;
+    font-size: 1.55rem !important;
   }
   .geo-takeaways-container .geo-answer-text {
-    font-size: 0.98rem !important;
-    padding: 18px 20px !important;
+    font-size: 0.96rem !important;
+    text-align: left !important;
   }
 }
 </style>
 <section aria-labelledby="membership-answer" class="elementor-element geo-takeaways-container geo-answer-capsule e-flex e-con-boxed e-con e-parent" data-element_type="container">
   <div class="e-con-inner">
-    <div class="geo-eyebrow">✦ Workspace Membership Tiers &amp; Plans</div>
-    <h2 class="elementor-heading-title elementor-size-default" id="membership-answer">What Coworking and Private Office Membership Plans Does Emspaced Offer?</h2>
+    <h2 class="elementor-heading-title elementor-size-default" id="membership-answer">Which Emspaced membership plan is right for your team?</h2>
     <p class="geo-answer-text">
-      <strong style="color:#3BD4AE !important;font-weight:700 !important;">Emspaced</strong> offers five comprehensive workspace membership tiers across its premier transit-oriented hubs at NU Tower 1 KL Sentral and Mercu 3 KL Eco City: Day Pass (from <strong style="color:#3BD4AE !important;font-weight:700 !important;">RM59/day</strong>), Hot Desk (from <strong style="color:#3BD4AE !important;font-weight:700 !important;">RM499/month</strong>), Fixed Dedicated Desk (from <strong style="color:#3BD4AE !important;font-weight:700 !important;">RM899/month</strong> at KL Eco City and <strong style="color:#3BD4AE !important;font-weight:700 !important;">RM999/month</strong> at KL Sentral), Private Serviced Office Suites (from <strong style="color:#3BD4AE !important;font-weight:700 !important;">RM999/month</strong> at KL Sentral and <strong style="color:#3BD4AE !important;font-weight:700 !important;">RM1,199/month</strong> at KL Eco City), and Virtual Office packages (from <strong style="color:#3BD4AE !important;font-weight:700 !important;">RM129/month</strong>). Every membership includes High-Speed Internet &amp; Reliable Wi-Fi, 24/7 biometric security access, premium barista-style coffee, meeting room credits, and direct access to Emspaced’s integrated business support ecosystem, including corporate accounting, cloud HRMS, and enterprise IT services. Agreements are structured with flexible month-to-month commitments and scalable options to accommodate team growth without long-term capital lock-in, enabling businesses of all sizes to adapt their workplace footprint seamlessly as operations expand across Malaysia.
+      <strong>Emspaced</strong> offers five comprehensive workspace membership tiers in Kuala Lumpur tailored for remote workers, growing SMEs, and enterprise teams across our NU Tower 1 KL Sentral and Mercu 3 KL Eco City hubs. Plans include <strong>Day Passes (RM59/day)</strong>, <strong>Hot Desks (RM499/month)</strong>, <strong>Dedicated Fixed Desks (RM899/pax at KL Sentral; RM999/pax at KL Eco City)</strong>, <strong>Private Serviced Offices (from RM999/pax at KL Sentral; RM1,199/pax at KL Eco City)</strong>, and <strong>Virtual Offices (from RM129/month)</strong>, alongside customisable Hybrid Workspace packages from RM200/month. Every membership includes High-Speed Internet &amp; Reliable Wi-Fi, ergonomic furniture, complimentary specialty coffee and tea, reception concierge services, and access to acoustic phone booths and executive boardrooms with transparent monthly billing and zero hidden setup fees.
     </p>
     <ul class="geo-facts-grid">
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Membership Tiers</div>
-        <div class="geo-fact-desc">Day Pass, Hot Desk, Fixed Desk, Private Serviced Suite, and Virtual Office.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Core Amenities</div>
-        <div class="geo-fact-desc">High-Speed Internet & Reliable Wi-Fi, 24/7 secure access, phone booths, and barista pantry.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Strategic Locations</div>
-        <div class="geo-fact-desc">Grade-A transit-connected buildings at KL Sentral and KL Eco City.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Business Integration</div>
-        <div class="geo-fact-desc">On-demand corporate accounting, cloud HRMS payroll, and managed IT services.</div>
-      </li>
+      <li class="geo-fact-card"><strong>Private Office Suites:</strong> From RM999/pax (KL Sentral) & RM1,199/pax (KL Eco City) — Lockable 24/7 furnished suites.</li>
+      <li class="geo-fact-card"><strong>Dedicated Fixed Desks:</strong> RM899/pax (KL Sentral) & RM999/pax (KL Eco City) — Personal workstation with lockable storage.</li>
+      <li class="geo-fact-card"><strong>Hot Desks & Day Passes:</strong> RM499/month or RM59/day — Flexible open-plan workspace access (Mon–Fri, 9am–6pm).</li>
+      <li class="geo-fact-card"><strong>Virtual & Hybrid Plans:</strong> Virtual Office from RM129/mo (SSM address) & Hybrid packages from RM200/mo.</li>
     </ul>
     <div class="geo-table-wrap">
-      <div class="geo-table-banner">
-        <span>✦ Plan Comparison &amp; Inclusive Amenities</span>
-      </div>
-      <table style="width:100%;border-collapse:collapse;font-family:'Inter',Sans-serif;font-size:0.86rem;text-align:left;background:#fff;border:1px solid #E2E8F0;border-radius:6px;overflow:hidden;">
+      <table>
     <thead>
-      <tr style="background:#00472D;color:#fff;">
-        <th style="padding:8px 12px;">Plan</th>
-        <th style="padding:8px 12px;">Pricing</th>
-        <th style="padding:8px 12px;">Access Hours</th>
-        <th style="padding:8px 12px;">Meeting Credits</th>
-        <th style="padding:8px 12px;">Locations</th>
-        <th style="padding:8px 12px;">Best Suited For</th>
+      <tr>
+        <th>Plan</th>
+        <th>Pricing</th>
+        <th>Access Hours</th>
+        <th>Meeting Credits</th>
+        <th>Locations</th>
+        <th>Best Suited For</th>
       </tr>
     </thead>
     <tbody>
-      <tr style="border-bottom:1px solid #E2E8F0;">
-        <td style="padding:8px 12px;font-weight:600;">Day Pass</td>
-        <td style="padding:8px 12px;color:#00472D;font-weight:600;">From RM59 / day</td>
-        <td style="padding:8px 12px;">9am &ndash; 6pm</td>
-        <td style="padding:8px 12px;">On-demand booking</td>
-        <td style="padding:8px 12px;">KL Sentral &amp; KL Eco City</td>
-        <td style="padding:8px 12px;">Freelancers &amp; Mobile Pros</td>
-      </tr>
-      <tr style="border-bottom:1px solid #E2E8F0;background:#F9FAFD;">
-        <td style="padding:8px 12px;font-weight:600;">Hot Desk</td>
-        <td style="padding:8px 12px;color:#00472D;font-weight:600;">From RM499 / pax</td>
-        <td style="padding:8px 12px;">Mon &ndash; Fri (9am &ndash; 6pm)</td>
-        <td style="padding:8px 12px;">Included monthly credits</td>
-        <td style="padding:8px 12px;">KL Sentral &amp; KL Eco City</td>
-        <td style="padding:8px 12px;">Startups &amp; Hybrid Teams</td>
-      </tr>
-      <tr style="border-bottom:1px solid #E2E8F0;">
-        <td style="padding:8px 12px;font-weight:600;">Dedicated Desk</td>
-        <td style="padding:8px 12px;color:#00472D;font-weight:600;">From RM899 &ndash; RM999 / pax</td>
-        <td style="padding:8px 12px;">24/7 Unlimited Access</td>
-        <td style="padding:8px 12px;">Included monthly credits</td>
-        <td style="padding:8px 12px;">KL Sentral &amp; KL Eco City</td>
-        <td style="padding:8px 12px;">Developers &amp; Solopreneurs</td>
-      </tr>
-      <tr style="border-bottom:1px solid #E2E8F0;background:#F9FAFD;">
-        <td style="padding:8px 12px;font-weight:600;">Private Office</td>
-        <td style="padding:8px 12px;color:#00472D;font-weight:600;">From RM999 &ndash; RM1,199 / pax</td>
-        <td style="padding:8px 12px;">24/7 Keycard Access</td>
-        <td style="padding:8px 12px;">Priority allocations</td>
-        <td style="padding:8px 12px;">KL Sentral &amp; KL Eco City</td>
-        <td style="padding:8px 12px;">SMEs (2&ndash;50 pax) &amp; Corporate</td>
+      <tr>
+        <td>Day Pass</td>
+        <td>From RM59 / day</td>
+        <td>9am &ndash; 6pm</td>
+        <td>On-demand booking</td>
+        <td>KL Sentral &amp; KL Eco City</td>
+        <td>Freelancers &amp; Mobile Pros</td>
       </tr>
       <tr>
-        <td style="padding:8px 12px;font-weight:600;">Virtual Office</td>
-        <td style="padding:8px 12px;color:#00472D;font-weight:600;">From RM129 / month</td>
-        <td style="padding:8px 12px;">Mail &amp; Call Concierge</td>
-        <td style="padding:8px 12px;">Discounted meeting credits</td>
-        <td style="padding:8px 12px;">KL Sentral &amp; KL Eco City</td>
-        <td style="padding:8px 12px;">SSM Business Registration</td>
+        <td>Hot Desk</td>
+        <td>From RM499 / pax</td>
+        <td>Mon &ndash; Fri (9am &ndash; 6pm)</td>
+        <td>Included monthly credits</td>
+        <td>KL Sentral &amp; KL Eco City</td>
+        <td>Startups &amp; Hybrid Teams</td>
       </tr>
-          <tr style="border-bottom:1px solid #E2E8F0;background:#F9FAFD;">
-        <td style="padding:8px 12px;font-weight:600;">Hybrid Workspace</td>
-        <td style="padding:8px 12px;color:#00472D;font-weight:600;">From RM200 / month</td>
-        <td style="padding:8px 12px;">Flexible Monthly Allocation</td>
-        <td style="padding:8px 12px;">Included credits</td>
-        <td style="padding:8px 12px;">KL Sentral &amp; KL Eco City</td>
-        <td style="padding:8px 12px;">Hybrid &amp; Remote Professionals</td>
+      <tr>
+        <td>Dedicated Desk</td>
+        <td>From RM899 &ndash; RM999 / pax</td>
+        <td>24/7 Unlimited Access</td>
+        <td>Included monthly credits</td>
+        <td>KL Sentral &amp; KL Eco City</td>
+        <td>Developers &amp; Solopreneurs</td>
+      </tr>
+      <tr>
+        <td>Private Office</td>
+        <td>From RM999 &ndash; RM1,199 / pax</td>
+        <td>24/7 Keycard Access</td>
+        <td>Priority allocations</td>
+        <td>KL Sentral &amp; KL Eco City</td>
+        <td>SMEs (2&ndash;50 pax) &amp; Corporate</td>
+      </tr>
+      <tr>
+        <td>Virtual Office</td>
+        <td>From RM129 / month</td>
+        <td>Mail &amp; Call Concierge</td>
+        <td>Discounted meeting credits</td>
+        <td>KL Sentral &amp; KL Eco City</td>
+        <td>SSM Business Registration</td>
+      </tr>
+          <tr>
+        <td>Hybrid Workspace</td>
+        <td>From RM200 / month</td>
+        <td>Flexible Monthly Allocation</td>
+        <td>Included credits</td>
+        <td>KL Sentral &amp; KL Eco City</td>
+        <td>Hybrid &amp; Remote Professionals</td>
       </tr>
     </tbody>
   </table>

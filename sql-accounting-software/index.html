@@ -322,218 +322,237 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <style id="geo-summary-style">
 .geo-takeaways-container {
-  background: linear-gradient(180deg, #003822 0%, #00472D 50%, #003320 100%) !important;
+  background-color: #00472D !important;
+  background: #00472D !important;
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 0 3.5rem 0 !important;
-  padding: 60px 24px !important;
+  padding: 64px 24px !important;
   box-sizing: border-box !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
   text-align: center !important;
-  position: relative !important;
-  border-top: 1px solid rgba(59, 212, 174, 0.2) !important;
-  border-bottom: 1px solid rgba(59, 212, 174, 0.2) !important;
 }
 .geo-takeaways-container .e-con-inner {
   background: transparent !important;
-  max-width: 1040px !important;
+  max-width: 1060px !important;
   width: 100% !important;
   margin: 0 auto !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
 }
-.geo-takeaways-container .geo-eyebrow {
-  display: inline-flex !important;
-  align-items: center !important;
-  gap: 8px !important;
-  background: rgba(59, 212, 174, 0.12) !important;
-  border: 1px solid rgba(59, 212, 174, 0.35) !important;
-  color: #3BD4AE !important;
-  padding: 6px 18px !important;
-  border-radius: 30px !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.8rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.08em !important;
-  text-transform: uppercase !important;
-  margin-bottom: 18px !important;
-}
 .geo-takeaways-container h2.elementor-heading-title {
   color: #FFFFFF !important;
   font-family: 'Rubik', Sans-serif !important;
-  font-size: 2.15rem !important;
-  font-weight: 700 !important;
-  line-height: 1.35 !important;
-  letter-spacing: -0.02em !important;
-  margin: 0 0 22px 0 !important;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.015em !important;
+  margin: 0 0 28px 0 !important;
   text-align: center !important;
-  max-width: 920px !important;
+  max-width: 860px !important;
+}
+.geo-takeaways-container h2.elementor-heading-title::after {
+  content: "" !important;
+  display: block !important;
+  width: 48px !important;
+  height: 2px !important;
+  background-color: #3BD4AE !important;
+  margin: 18px auto 0 auto !important;
 }
 .geo-takeaways-container .geo-answer-text {
-  background: rgba(255, 255, 255, 0.05) !important;
-  border: 1px solid rgba(59, 212, 174, 0.25) !important;
-  border-left: 4px solid #3BD4AE !important;
-  border-radius: 12px !important;
-  color: #F8FAFC !important;
+  background: transparent !important;
+  border: none !important;
+  color: rgba(255, 255, 255, 0.9) !important;
   font-family: 'Inter', Sans-serif !important;
-  font-size: 1.05rem !important;
-  line-height: 1.85 !important;
-  max-width: 100% !important;
-  margin: 0 auto 28px auto !important;
-  padding: 24px 30px !important;
-  text-align: left !important;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18) !important;
-  box-sizing: border-box !important;
+  font-size: 1.04rem !important;
+  line-height: 1.8 !important;
+  max-width: 880px !important;
+  margin: 0 auto 36px auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  box-shadow: none !important;
 }
 .geo-takeaways-container .geo-answer-text strong {
-  color: #3BD4AE !important;
-  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
 }
 .geo-takeaways-container .geo-facts-grid {
   display: grid !important;
   grid-template-columns: repeat(4, 1fr) !important;
-  gap: 16px !important;
+  gap: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 auto 32px auto !important;
-  padding: 0 !important;
+  margin: 0 auto 36px auto !important;
+  padding: 26px 0 !important;
   list-style: none !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
   box-sizing: border-box !important;
+}
+.geo-takeaways-container .geo-fact-card {
+  background: transparent !important;
+  border: none !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 0 !important;
+  padding: 4px 22px !important;
+  text-align: left !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+}
+.geo-takeaways-container .geo-fact-card:first-child {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+.geo-takeaways-container .geo-fact-card:last-child {
+  padding-right: 0 !important;
+}
+.geo-takeaways-container .geo-fact-card strong {
+  display: block !important;
+  color: #3BD4AE !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.76rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  margin-bottom: 6px !important;
 }
 @media (max-width: 991px) {
   .geo-takeaways-container .geo-facts-grid {
     grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+  .geo-takeaways-container .geo-fact-card {
+    border-left: none !important;
+    padding: 0 !important;
   }
 }
 @media (max-width: 575px) {
   .geo-takeaways-container .geo-facts-grid {
     grid-template-columns: 1fr !important;
+    gap: 16px !important;
   }
-}
-.geo-takeaways-container .geo-fact-card {
-  background: rgba(255, 255, 255, 0.04) !important;
-  border: 1px solid rgba(255, 255, 255, 0.09) !important;
-  border-radius: 10px !important;
-  padding: 16px 18px !important;
-  text-align: left !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: flex-start !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-label {
-  color: #3BD4AE !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.8rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
-  margin-bottom: 6px !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 6px !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-label span {
-  font-size: 0.9rem !important;
-}
-.geo-takeaways-container .geo-fact-card .geo-fact-desc {
-  color: #E2E8F0 !important;
-  font-family: 'Inter', Sans-serif !important;
-  font-size: 0.88rem !important;
-  line-height: 1.55 !important;
 }
 .geo-takeaways-container .geo-table-wrap {
   overflow-x: auto !important;
   margin: 0 auto !important;
   width: 100% !important;
   max-width: 100% !important;
-  border-radius: 12px !important;
+  border-radius: 8px !important;
   background: #FFFFFF !important;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.22) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  overflow: hidden !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12) !important;
+  border: none !important;
 }
-.geo-takeaways-container .geo-table-banner {
-  background: #003320 !important;
-  padding: 12px 20px !important;
-  text-align: left !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  border-bottom: 1px solid rgba(59, 212, 174, 0.3) !important;
-}
-.geo-takeaways-container .geo-table-banner span {
-  color: #3BD4AE !important;
+.geo-takeaways-container .geo-table-wrap table {
+  width: 100% !important;
+  border-collapse: collapse !important;
   font-family: 'Inter', Sans-serif !important;
-  font-size: 0.82rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.06em !important;
+  font-size: 0.9rem !important;
+  text-align: left !important;
+  background: #FFFFFF !important;
+  margin: 0 !important;
+}
+.geo-takeaways-container .geo-table-wrap thead tr {
+  background: #F8FAFC !important;
+  color: #0F172A !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+.geo-takeaways-container .geo-table-wrap thead th {
+  padding: 14px 18px !important;
+  font-weight: 600 !important;
+  font-size: 0.78rem !important;
   text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #475569 !important;
+  border: none !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody tr {
+  border-bottom: 1px solid #F1F5F9 !important;
+  background: #FFFFFF !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody tr:last-child {
+  border-bottom: none !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody td {
+  padding: 14px 18px !important;
+  color: #334155 !important;
+  border: none !important;
+  line-height: 1.5 !important;
+}
+.geo-takeaways-container .geo-table-wrap tbody td:first-child {
+  font-weight: 600 !important;
+  color: #0F172A !important;
+}
+.geo-takeaways-container .elementor-button {
+  background-color: #FFFFFF !important;
+  color: #00472D !important;
+  font-family: 'Inter', Sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  padding: 12px 28px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  border: 1px solid #FFFFFF !important;
+  box-shadow: none !important;
+  transition: opacity 0.2s ease !important;
+}
+.geo-takeaways-container .elementor-button:hover {
+  opacity: 0.92 !important;
 }
 @media (max-width: 767px) {
+  .geo-takeaways-container {
+    padding: 48px 20px !important;
+  }
   .geo-takeaways-container h2.elementor-heading-title {
-    font-size: 1.6rem !important;
+    font-size: 1.55rem !important;
   }
   .geo-takeaways-container .geo-answer-text {
-    font-size: 0.98rem !important;
-    padding: 18px 20px !important;
+    font-size: 0.96rem !important;
+    text-align: left !important;
   }
 }
 </style>
 <section aria-labelledby="sql-answer" class="elementor-element geo-takeaways-container geo-answer-capsule e-flex e-con-boxed e-con e-parent" data-element_type="container">
   <div class="e-con-inner">
-    <div class="geo-eyebrow">✦ Certified SQL Accounting Implementation</div>
-    <h2 class="elementor-heading-title elementor-size-default" id="sql-answer">Why Choose SQL Accounting Software Implementation by Emspaced?</h2>
+    <h2 class="elementor-heading-title elementor-size-default" id="sql-answer">What is SQL Accounting Software?</h2>
     <p class="geo-answer-text">
-      <strong style="color:#3BD4AE !important;font-weight:700 !important;">Emspaced</strong>, as an accredited Malaysian software partner and enterprise solution provider, deploys and manages <strong style="color:#3BD4AE !important;font-weight:700 !important;">SQL Accounting</strong> software to empower businesses with automated financial management and guaranteed statutory tax compliance. Trusted by over 250,000 Malaysian companies, SQL Accounting features robust modules for general ledger accounting, invoicing, inventory management, multi-currency processing, and SST reporting. Emspaced provides full implementation support, data migration from legacy accounting systems, hands-on user training, and direct configuration for Malaysia’s mandatory LHDN e-invoicing mandate. Our certified specialists ensure seamless integration between your business operations and financial ledgers for optimized compliance. Deployments scale flexibly from cost-effective single-user desktop workstations to high-performance multi-branch network databases, supported by regular software updates and ongoing technical assistance from Emspaced’s advisory team to ensure continuous accuracy, compliance, and effortless financial reporting for Malaysian enterprises across dynamic industries and scaling stages.
+      <strong>Emspaced</strong>, as an accredited Malaysian software partner and enterprise implementation specialist, delivers full licensing, custom configuration, data migration, and LHDN MyInvois API integration for <strong>SQL Accounting Software</strong> across Kuala Lumpur. Trusted by over 250,000 businesses in Malaysia and supported on-site by our chartered accountants at EC &amp; Partners PLT, SQL Account automates double-entry general ledgers, SST-02 tax returns, multi-currency billing, inventory control, and real-time LHDN e-Invoicing validation. Whether deployed on-premise or via secure cloud hosting, Emspaced provides hands-on staff training, custom invoice template design, and seamless synchronization with SQL Payroll and Emspaced HRMS from our KL Sentral and KL Eco City centres, empowering finance teams to eliminate manual entry errors, accelerate monthly financial closings, maintain complete statutory audit readiness, and scale financial operations effortlessly.
     </p>
     <ul class="geo-facts-grid">
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Statutory Ready</div>
-        <div class="geo-fact-desc">Compliant with LHDN e-invoicing standards and SST filing requirements.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Enterprise Features</div>
-        <div class="geo-fact-desc">Real-time inventory tracking, multi-currency support, and comprehensive general ledger.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Full Implementation</div>
-        <div class="geo-fact-desc">Data migration, software customization, and on-site user onboarding workshops.</div>
-      </li>
-      <li class="geo-fact-card">
-        <div class="geo-fact-label"><span>✦</span> Scalable Architecture</div>
-        <div class="geo-fact-desc">Supports single-user desktop deployments up to complex multi-branch network databases.</div>
-      </li>
+      <li class="geo-fact-card"><strong>LHDN e-Invoicing Ready:</strong> Built-in MyInvois API integration for real-time digital tax validation andTIN verification.</li>
+      <li class="geo-fact-card"><strong>SST & Tax Automation:</strong> Automated SST-02 return generation, multi-currency ledgers, and bank reconciliation.</li>
+      <li class="geo-fact-card"><strong>Turnkey Deployment:</strong> Full data migration, custom report templates, and cloud or on-premise installation.</li>
+      <li class="geo-fact-card"><strong>Chartered Support:</strong> Backed by certified accountants and technical specialists at KL Sentral and KL Eco City.</li>
     </ul>
     <div class="geo-table-wrap">
-      <div class="geo-table-banner">
-        <span>✦ Software Editions &amp; Managed Deployment Matrix</span>
-      </div>
-      <table style="width:100%;border-collapse:collapse;font-family:'Inter',Sans-serif;font-size:0.92rem;text-align:left;background:#FFFFFF;border:1px solid #C8D5DC;border-radius:6px;overflow:hidden;">
+      <table>
     <thead>
-      <tr style="background:#003822;color:#FFFFFF;">
-        <th style="padding:10px 14px;font-family:'Rubik',Sans-serif;font-weight:600;">Feature Category</th>
-        <th style="padding:10px 14px;font-family:'Rubik',Sans-serif;font-weight:600;">Standard Bookkeeping Method</th>
-        <th style="padding:10px 14px;font-family:'Rubik',Sans-serif;font-weight:600;">SQL Accounting Software via Emspaced</th>
+      <tr>
+        <th>Feature Category</th>
+        <th>Standard Bookkeeping Method</th>
+        <th>SQL Accounting Software via Emspaced</th>
       </tr>
     </thead>
     <tbody>
-      <tr style="border-bottom:1px solid #E2E8F0;">
-        <td style="padding:10px 14px;font-weight:600;color:#00472D;">LHDN e-Invoicing</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Manual portal data entry</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Instant 1-click submission &amp; QR validation</td>
+      <tr>
+        <td>LHDN e-Invoicing</td>
+        <td>Manual portal data entry</td>
+        <td>Instant 1-click submission &amp; QR validation</td>
       </tr>
-      <tr style="border-bottom:1px solid #E2E8F0;background:#F9FAFD;">
-        <td style="padding:10px 14px;font-weight:600;color:#00472D;">Tax &amp; SST Audit</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Paper receipts &amp; retrospective audits</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Automated SST-02 generation &amp; audit trails</td>
+      <tr>
+        <td>Tax &amp; SST Audit</td>
+        <td>Paper receipts &amp; retrospective audits</td>
+        <td>Automated SST-02 generation &amp; audit trails</td>
       </tr>
-      <tr style="background:#FFFFFF;">
-        <td style="padding:10px 14px;font-weight:600;color:#00472D;">Reporting Speed</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">2 to 3 weeks after month-end</td>
-        <td style="padding:10px 14px;color:#3A3A3A;">Real-time balance sheet &amp; P&amp;L access</td>
+      <tr>
+        <td>Reporting Speed</td>
+        <td>2 to 3 weeks after month-end</td>
+        <td>Real-time balance sheet &amp; P&amp;L access</td>
       </tr>
     </tbody>
   </table>
