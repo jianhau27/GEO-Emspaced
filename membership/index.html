@@ -316,7 +316,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <div class="elementor-element elementor-element-70fb86f elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="70fb86f" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
-<p>Explore flexible and cost-effective workspace membership plans at Emspaced across KL Sentral and KL Eco City. Whether you need an on-demand <strong>Day Pass (from RM59/day)</strong>, flexible <strong>Hot Desk (from RM499/pax)</strong>, <strong>Fixed Desk (from RM899/pax)</strong>, fully furnished <strong>Private Office (from RM999/pax)</strong>, prestigious corporate <strong>Virtual Office (from RM129/month)</strong>, or <strong>Hybrid Workspace (from RM200/month)</strong>, each membership includes enterprise high-speed Internet, meeting room credits, complimentary refreshments, and full business support amenities.</p> </div>
+<p>Explore flexible and cost-effective workspace membership plans at Emspaced across KL Sentral and KL Eco City. Whether you need an on-demand <strong>Day Pass (from RM30/day)</strong>, flexible <strong>Hot Desk (from RM300/month)</strong>, <strong>Dedicated Desk</strong>, fully furnished <strong>Private Office (from RM800/desk/month)</strong>, or a prestigious corporate <strong>Virtual Office (from RM60/month)</strong>, each membership includes enterprise high-speed Internet, meeting room credits, complimentary refreshments, and full business support amenities.</p> </div>
 </div>
 </div>
 </div>
@@ -448,8 +448,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .geo-table-outer {
   width: 100% !important;
   max-width: 100% !important;
-  background: #FFFFFF !important;
-  padding: 2.75rem 8% 1.5rem 8% !important;
+  background: linear-gradient(180deg, #E8FAF3 0%, #F2FBF7 100%) !important;
+  border-bottom: 1px solid #D0EFE3 !important;
+  padding: 2.5rem 8% 2.5rem 8% !important;
   box-sizing: border-box !important;
 }
 .geo-table-wrap {
@@ -457,10 +458,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   margin: 0 auto !important;
   width: 100% !important;
   max-width: 1600px !important;
-  border-radius: 12px !important;
-  background: #FFFFFF !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
-  border: 1px solid #E2E8F0 !important;
+  border-radius: 14px !important;
+  background: #F7FCFA !important;
+  box-shadow: 0 8px 28px rgba(0, 71, 45, 0.08) !important;
+  border: 1px solid #BCE5D6 !important;
 }
 .geo-table-wrap table {
   width: 100% !important;
@@ -468,7 +469,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   font-family: "Inter", Sans-serif !important;
   font-size: 0.98rem !important;
   text-align: left !important;
-  background: #FFFFFF !important;
+  background: transparent !important;
   margin: 0 !important;
 }
 .geo-table-wrap thead tr {
@@ -476,28 +477,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   color: #FFFFFF !important;
 }
 .geo-table-wrap thead th {
-  padding: 15px 22px !important;
+  padding: 16px 24px !important;
   font-family: "Rubik", Sans-serif !important;
   font-weight: 600 !important;
-  font-size: 0.95rem !important;
+  font-size: 0.96rem !important;
   color: #FFFFFF !important;
   border: none !important;
+  letter-spacing: 0.01em !important;
 }
-.geo-table-wrap tbody tr {
-  border-bottom: 1px solid #E2E8F0 !important;
+.geo-table-wrap tbody tr:nth-child(odd) {
+  background-color: #FFFFFF !important;
+  border-bottom: 1px solid #D8EFE6 !important;
+}
+.geo-table-wrap tbody tr:nth-child(even) {
+  background-color: #EDF9F4 !important;
+  border-bottom: 1px solid #D8EFE6 !important;
 }
 .geo-table-wrap tbody tr:last-child {
   border-bottom: none !important;
 }
 .geo-table-wrap tbody td {
-  padding: 15px 22px !important;
-  color: #3A3A3A !important;
+  padding: 15px 24px !important;
+  color: #2D3748 !important;
   border: none !important;
   line-height: 1.55 !important;
 }
 .geo-table-wrap tbody td:first-child {
   font-weight: 600 !important;
   color: #00472D !important;
+  background-color: rgba(59, 212, 174, 0.08) !important;
 }
 .geo-takeaways-container .elementor-button {
   background-color: #FFFFFF !important;
@@ -539,7 +547,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     text-align: center !important;
   }
   .geo-table-outer {
-    padding: 2rem 1.25rem 1rem 1.25rem !important;
+    padding: 1.75rem 1.25rem !important;
   }
 }
 </style>
@@ -620,6 +628,616 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </tbody>
   </table>
     </div>
+</div>
+<div class="elementor-element elementor-element-f1b3eb8 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="f1b3eb8">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-cc6cc20 e-transform e-transform taxonomy-filter-membership-plan elementor-widget elementor-widget-taxonomy-filter" data-element_type="widget" data-id="cc6cc20" data-settings='{"horizontal_scroll":"enable","selected_element":"16f2a33","taxonomy":"membership-location","_transform_rotateZ_effect_hover":{"unit":"px","size":"","sizes":[]},"_transform_rotateZ_effect_hover_tablet":{"unit":"deg","size":"","sizes":[]},"_transform_rotateZ_effect_hover_mobile":{"unit":"deg","size":"","sizes":[]},"_transform_translateX_effect_hover":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_hover_mobile":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_hover":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}' data-widget_type="taxonomy-filter.default" membershipplan-toogle="true">
+<div class="elementor-widget-container">
+<search class="e-filter" data-base-url="https://emspaced.com/membership/" data-page-num="1" role="search">
+<button aria-pressed="false" class="e-filter-item" data-filter="kl-sentral">KL Sentral</button>
+<button aria-pressed="false" class="e-filter-item" data-filter="kl-eco-city">KL Eco City</button>
+</search>
+</div>
+</div>
+<div class="elementor-element elementor-element-16f2a33 elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-element_type="widget" data-id="16f2a33" data-settings='{"template_id":"2249","columns":3,"_skin":"post","columns_tablet":"2","columns_mobile":"1","edit_handle_selector":"[data-elementor-type=\"loop-item\"]","row_gap":{"unit":"px","size":"","sizes":[]},"row_gap_tablet":{"unit":"px","size":"","sizes":[]},"row_gap_mobile":{"unit":"px","size":"","sizes":[]}}' data-widget_type="loop-grid.post">
+<div class="elementor-widget-container">
+<div class="elementor-loop-container elementor-grid">
+<style id="loop-2249">.elementor-2249 .elementor-element.elementor-element-0224145{--display:flex;--border-radius:10px 10px 10px 10px;box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-widget-theme-post-featured-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );text-transform:var( --e-global-typography-text-text-transform );font-style:var( --e-global-typography-text-font-style );text-decoration:var( --e-global-typography-text-text-decoration );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-85dcc56 img{width:100%;height:300px;object-fit:cover;object-position:center center;border-radius:10px 10px 10px 10px;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );text-transform:var( --e-global-typography-primary-text-transform );font-style:var( --e-global-typography-primary-font-style );text-decoration:var( --e-global-typography-primary-text-decoration );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );word-spacing:var( --e-global-typography-primary-word-spacing );color:var( --e-global-color-primary );}.elementor-2249 .elementor-element.elementor-element-78cf110 > .elementor-widget-container{margin:0rem 0rem 0rem 0rem;padding:1rem 0rem 0rem 1rem;}.elementor-2249 .elementor-element.elementor-element-78cf110 .elementor-heading-title{font-family:"Rubik", Sans-serif;font-size:1.25rem;font-weight:700;text-transform:none;font-style:normal;text-decoration:none;line-height:1.5em;letter-spacing:0px;color:var( --e-global-color-text );}.elementor-2249 .elementor-element.elementor-element-ddc62a8{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--padding-top:0rem;--padding-bottom:0rem;--padding-left:0rem;--padding-right:0rem;}.elementor-2249 .elementor-element.elementor-element-525291b{--display:grid;--e-con-grid-template-columns:repeat(2, 1fr);--e-con-grid-template-rows:repeat(3, 1fr);--grid-auto-flow:row;--padding-top:0rem;--padding-bottom:0rem;--padding-left:0rem;--padding-right:1rem;}.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after{border-color:var( --e-global-color-text );}.elementor-widget-icon-list .elementor-icon-list-icon i{color:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );text-transform:var( --e-global-typography-text-text-transform );font-style:var( --e-global-typography-text-font-style );text-decoration:var( --e-global-typography-text-text-decoration );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-widget-icon-list .elementor-icon-list-text{color:var( --e-global-color-secondary );}.elementor-2249 .elementor-element.elementor-element-a8e481e > .elementor-widget-container{padding:1rem 0rem 0rem 1rem;}.elementor-2249 .elementor-element.elementor-element-a8e481e.elementor-element{--align-self:flex-start;}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(20px/2);margin-left:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-20px/2);margin-left:calc(-20px/2);}body.rtl .elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-20px/2);}body:not(.rtl) .elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-20px/2);}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-2249 .elementor-element.elementor-element-a8e481e{--e-icon-list-icon-size:1.5rem;--icon-vertical-align:flex-start;--icon-vertical-offset:0.2rem;}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-icon{padding-right:0px;}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-item > a{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );font-style:var( --e-global-typography-accent-font-style );text-decoration:var( --e-global-typography-accent-text-decoration );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-text{color:var( --e-global-color-text );transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-43882c5 > .elementor-widget-container{padding:1rem 0rem 0rem 1rem;}.elementor-2249 .elementor-element.elementor-element-43882c5.elementor-element{--align-self:flex-start;}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(20px/2);margin-left:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-20px/2);margin-left:calc(-20px/2);}body.rtl .elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-20px/2);}body:not(.rtl) .elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-20px/2);}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-2249 .elementor-element.elementor-element-43882c5{--e-icon-list-icon-size:1.5rem;--icon-vertical-align:flex-start;--icon-vertical-offset:0.2rem;}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-item > a{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );font-style:var( --e-global-typography-accent-font-style );text-decoration:var( --e-global-typography-accent-text-decoration );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-text{color:var( --e-global-color-text );transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-bc38f20 > .elementor-widget-container{padding:1rem 0rem 0rem 1rem;}.elementor-2249 .elementor-element.elementor-element-bc38f20.elementor-element{--align-self:flex-start;}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(20px/2);margin-left:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-20px/2);margin-left:calc(-20px/2);}body.rtl .elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-20px/2);}body:not(.rtl) .elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-20px/2);}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-2249 .elementor-element.elementor-element-bc38f20{--e-icon-list-icon-size:1.5rem;--icon-vertical-align:flex-start;--icon-vertical-offset:0.2rem;}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-item > a{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );font-style:var( --e-global-typography-accent-font-style );text-decoration:var( --e-global-typography-accent-text-decoration );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-text{color:var( --e-global-color-text );transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-f7849c5 > .elementor-widget-container{padding:1rem 0rem 0rem 1rem;}.elementor-2249 .elementor-element.elementor-element-f7849c5.elementor-element{--align-self:flex-start;}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(20px/2);margin-left:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-20px/2);margin-left:calc(-20px/2);}body.rtl .elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-20px/2);}body:not(.rtl) .elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-20px/2);}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-2249 .elementor-element.elementor-element-f7849c5{--e-icon-list-icon-size:1.5rem;--icon-vertical-align:flex-start;--icon-vertical-offset:0.2rem;}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-item > a{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );font-style:var( --e-global-typography-accent-font-style );text-decoration:var( --e-global-typography-accent-text-decoration );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-text{color:var( --e-global-color-text );transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-5f0439f > .elementor-widget-container{padding:1rem 0rem 0rem 1rem;}.elementor-2249 .elementor-element.elementor-element-5f0439f.elementor-element{--align-self:flex-start;}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(20px/2);margin-left:calc(20px/2);}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-20px/2);margin-left:calc(-20px/2);}body.rtl .elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-20px/2);}body:not(.rtl) .elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-20px/2);}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-2249 .elementor-element.elementor-element-5f0439f{--e-icon-list-icon-size:1.5rem;--icon-vertical-align:flex-start;--icon-vertical-offset:0.2rem;}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-item > a{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );font-style:var( --e-global-typography-accent-font-style );text-decoration:var( --e-global-typography-accent-text-decoration );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-text{color:var( --e-global-color-text );transition:color 0.3s;}.elementor-2249 .elementor-element.elementor-element-653ac99{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:space-between;--align-items:center;--padding-top:1rem;--padding-bottom:1rem;--padding-left:0rem;--padding-right:0rem;}.elementor-2249 .elementor-element.elementor-element-653ac99.e-con{--order:99999 /* order end hack */;}.elementor-widget-text-editor{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );text-transform:var( --e-global-typography-text-text-transform );font-style:var( --e-global-typography-text-font-style );text-decoration:var( --e-global-typography-text-text-decoration );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-2249 .elementor-element.elementor-element-a92ad83 > .elementor-widget-container{padding:1rem 0rem 0rem 1rem;}.elementor-2249 .elementor-element.elementor-element-a92ad83{color:var( --e-global-color-primary );font-family:"Rubik", Sans-serif;font-size:1rem;font-weight:700;font-style:normal;text-decoration:none;line-height:1.5em;letter-spacing:0px;}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );font-style:var( --e-global-typography-accent-font-style );text-decoration:var( --e-global-typography-accent-text-decoration );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-bd29fb6 .elementor-button{background-color:var( --e-global-color-86b4fcd );font-family:"Inter", Sans-serif;font-size:1rem;font-weight:600;font-style:normal;text-decoration:none;line-height:1.5em;letter-spacing:0px;fill:var( --e-global-color-primary );color:var( --e-global-color-primary );border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-primary );border-radius:10px 10px 10px 10px;padding:6px 12px 6px 12px;}.elementor-2249 .elementor-element.elementor-element-bd29fb6 .elementor-button:hover, .elementor-2249 .elementor-element.elementor-element-bd29fb6 .elementor-button:focus{background-color:#3BD4AE1A;}.elementor-2249 .elementor-element.elementor-element-bd29fb6 > .elementor-widget-container{padding:1rem 1rem 0rem 0rem;}@media(max-width:1024px){.elementor-widget-theme-post-featured-image .widget-image-caption{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );word-spacing:var( --e-global-typography-primary-word-spacing );}.elementor-2249 .elementor-element.elementor-element-78cf110 .elementor-heading-title{font-size:14px;}.elementor-2249 .elementor-element.elementor-element-525291b{--grid-auto-flow:row;}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-a92ad83{font-size:14px;}.elementor-widget-button .elementor-button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-bd29fb6 .elementor-button{font-size:14px;}}@media(max-width:767px){.elementor-2249 .elementor-element.elementor-element-0224145{--justify-content:flex-start;}.elementor-widget-theme-post-featured-image .widget-image-caption{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-85dcc56 img{height:250px;}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );word-spacing:var( --e-global-typography-primary-word-spacing );}.elementor-2249 .elementor-element.elementor-element-525291b{--e-con-grid-template-columns:repeat(1, 1fr);--grid-auto-flow:row;}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-a8e481e .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-43882c5 .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-bc38f20 .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-f7849c5 .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2249 .elementor-element.elementor-element-5f0439f .elementor-icon-list-item > a{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-653ac99{--justify-content:space-between;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--padding-top:01rem;--padding-bottom:1rem;--padding-left:0rem;--padding-right:0rem;}.elementor-2249 .elementor-element.elementor-element-653ac99.e-con{--order:99999 /* order end hack */;}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-a92ad83 > .elementor-widget-container{padding:0rem 0rem 0rem 1rem;}.elementor-2249 .elementor-element.elementor-element-a92ad83{text-align:left;}.elementor-widget-button .elementor-button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-2249 .elementor-element.elementor-element-bd29fb6 > .elementor-widget-container{padding:0rem 1rem 0rem 0rem;}.elementor-2249 .elementor-element.elementor-element-bd29fb6 .elementor-button{padding:8px 16px 8px 16px;}}/* Start custom CSS for icon-list, class: .elementor-element-43882c5 */.No {
+    display: none
+}/* End custom CSS */
+/* Start custom CSS for icon-list, class: .elementor-element-bc38f20 */.No {
+    display: none
+}/* End custom CSS */
+/* Start custom CSS for icon-list, class: .elementor-element-f7849c5 */.No {
+    display: none
+}/* End custom CSS */
+/* Start custom CSS for icon-list, class: .elementor-element-5f0439f */.No {
+    display: none
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-0224145 */.elementor-2249 .elementor-element.elementor-element-0224145 .memebership-page-card-button{
+
+ margin-top: auto;
+
+}/* End custom CSS */</style> <div class="elementor elementor-2249 e-loop-item e-loop-item-2168 post-2168 membership type-membership status-publish has-post-thumbnail hentry membership-location-kl-sentral" data-custom-edit-handle="1" data-elementor-id="2249" data-elementor-post-type="elementor_library" data-elementor-type="loop-item">
+<div class="elementor-element elementor-element-0224145 maincardmemebership e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="0224145">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-85dcc56 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-element_type="widget" data-id="85dcc56" data-widget_type="theme-post-featured-image.default">
+<div class="elementor-widget-container">
+<img alt="emspaced private room hot desks" class="attachment-large size-large wp-image-7324" decoding="async" height="526" sizes="(max-width: 800px) 100vw, 800px" src="../wp-content/uploads/2024/11/emspaced-private-room-hot-desks.jpeg" srcset="../wp-content/uploads/2024/11/emspaced-private-room-hot-desks.jpeg 1600w, ../wp-content/uploads/2024/11/emspaced-private-room-hot-desks-300x197.jpeg 300w, ../wp-content/uploads/2024/11/emspaced-private-room-hot-desks-768x505.jpeg 768w, ../wp-content/uploads/2024/11/emspaced-private-room-hot-desks-1536x1010.jpeg 1536w" width="800"/> </div>
+</div>
+<div class="elementor-element elementor-element-78cf110 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="78cf110" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Private Office</h2> </div>
+</div>
+<div class="elementor-element elementor-element-ddc62a8 xequal-height-icon-list-plans-membership e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="ddc62a8">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-525291b e-grid e-con-boxed e-con e-child" data-element_type="container" data-id="525291b">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a8e481e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="a8e481e" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Dedicated Storage</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-43882c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="43882c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Premium Ergonomic Chairs</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-bc38f20 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="bc38f20" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">All Location Access</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-f7849c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="f7849c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Complete Business Amenities</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-5f0439f elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="5f0439f" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">All Membership Benefits</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-653ac99 memebership-page-card-button e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="653ac99">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a92ad83 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="a92ad83" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+									From RM999 / pax								</div>
+</div>
+<div class="elementor-element elementor-element-bd29fb6 elementor-widget elementor-widget-button" data-element_type="widget" data-id="bd29fb6" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">BOOK A TOUR</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor elementor-2249 e-loop-item e-loop-item-2169 post-2169 membership type-membership status-publish has-post-thumbnail hentry membership-location-kl-sentral" data-custom-edit-handle="1" data-elementor-id="2249" data-elementor-post-type="elementor_library" data-elementor-type="loop-item">
+<div class="elementor-element elementor-element-0224145 maincardmemebership e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="0224145">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-85dcc56 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-element_type="widget" data-id="85dcc56" data-widget_type="theme-post-featured-image.default">
+<div class="elementor-widget-container">
+<img alt="emspaced lounge desks window view" class="attachment-large size-large wp-image-7329" decoding="async" height="526" sizes="(max-width: 800px) 100vw, 800px" src="../wp-content/uploads/2024/11/emspaced-lounge-desks-window-view.jpeg" srcset="../wp-content/uploads/2024/11/emspaced-lounge-desks-window-view.jpeg 1600w, ../wp-content/uploads/2024/11/emspaced-lounge-desks-window-view-300x197.jpeg 300w, ../wp-content/uploads/2024/11/emspaced-lounge-desks-window-view-768x505.jpeg 768w, ../wp-content/uploads/2024/11/emspaced-lounge-desks-window-view-1536x1010.jpeg 1536w" width="800"/> </div>
+</div>
+<div class="elementor-element elementor-element-78cf110 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="78cf110" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Hot Desk </h2> </div>
+</div>
+<div class="elementor-element elementor-element-ddc62a8 xequal-height-icon-list-plans-membership e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="ddc62a8">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-525291b e-grid e-con-boxed e-con e-child" data-element_type="container" data-id="525291b">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a8e481e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="a8e481e" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Premium Ergonomic Chairs</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-43882c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="43882c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">All Location Access</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-bc38f20 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="bc38f20" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Complete Business Amenities</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-f7849c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="f7849c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">All Membership Benefits</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-5f0439f elementor-icon-list--layout-traditional elementor-list-item-link-full_width No elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="5f0439f" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text"></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-653ac99 memebership-page-card-button e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="653ac99">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a92ad83 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="a92ad83" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+									From RM499/pax								</div>
+</div>
+<div class="elementor-element elementor-element-bd29fb6 elementor-widget elementor-widget-button" data-element_type="widget" data-id="bd29fb6" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">BOOK A TOUR</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor elementor-2249 e-loop-item e-loop-item-2170 post-2170 membership type-membership status-publish has-post-thumbnail hentry membership-location-kl-sentral" data-custom-edit-handle="1" data-elementor-id="2249" data-elementor-post-type="elementor_library" data-elementor-type="loop-item">
+<div class="elementor-element elementor-element-0224145 maincardmemebership e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="0224145">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-85dcc56 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-element_type="widget" data-id="85dcc56" data-widget_type="theme-post-featured-image.default">
+<div class="elementor-widget-container">
+<img alt="emspaced faux grass office window view" class="attachment-large size-large wp-image-7323" decoding="async" height="526" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="../wp-content/uploads/2024/11/emspaced-faux-grass-office-window-view.jpeg" srcset="../wp-content/uploads/2024/11/emspaced-faux-grass-office-window-view.jpeg 1600w, ../wp-content/uploads/2024/11/emspaced-faux-grass-office-window-view-300x197.jpeg 300w, ../wp-content/uploads/2024/11/emspaced-faux-grass-office-window-view-768x505.jpeg 768w, ../wp-content/uploads/2024/11/emspaced-faux-grass-office-window-view-1536x1010.jpeg 1536w" width="800"/> </div>
+</div>
+<div class="elementor-element elementor-element-78cf110 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="78cf110" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Fixed Desk</h2> </div>
+</div>
+<div class="elementor-element elementor-element-ddc62a8 xequal-height-icon-list-plans-membership e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="ddc62a8">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-525291b e-grid e-con-boxed e-con e-child" data-element_type="container" data-id="525291b">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a8e481e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="a8e481e" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Permanent Seating</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-43882c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="43882c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Premium Ergonomic Chairs</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-bc38f20 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="bc38f20" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">All Location Access</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-f7849c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="f7849c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Complete Business Amenities</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-5f0439f elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="5f0439f" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">All Membership Benefits</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-653ac99 memebership-page-card-button e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="653ac99">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a92ad83 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="a92ad83" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+									From RM999 / pax								</div>
+</div>
+<div class="elementor-element elementor-element-bd29fb6 elementor-widget elementor-widget-button" data-element_type="widget" data-id="bd29fb6" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">BOOK A TOUR</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor elementor-2249 e-loop-item e-loop-item-2558 post-2558 membership type-membership status-publish has-post-thumbnail hentry membership-location-kl-sentral" data-custom-edit-handle="1" data-elementor-id="2249" data-elementor-post-type="elementor_library" data-elementor-type="loop-item">
+<div class="elementor-element elementor-element-0224145 maincardmemebership e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="0224145">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-85dcc56 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-element_type="widget" data-id="85dcc56" data-widget_type="theme-post-featured-image.default">
+<div class="elementor-widget-container">
+<img alt="" class="attachment-large size-large wp-image-4230" decoding="async" height="681" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="../wp-content/uploads/2024/03/Hybrid-Image-1024x872.webp" srcset="../wp-content/uploads/2024/03/Hybrid-Image-1024x872.webp 1024w, ../wp-content/uploads/2024/03/Hybrid-Image-300x256.webp 300w, ../wp-content/uploads/2024/03/Hybrid-Image-768x654.webp 768w, ../wp-content/uploads/2024/03/Hybrid-Image.webp 1080w" width="800"/> </div>
+</div>
+<div class="elementor-element elementor-element-78cf110 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="78cf110" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Hybrid Workspace</h2> </div>
+</div>
+<div class="elementor-element elementor-element-ddc62a8 xequal-height-icon-list-plans-membership e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="ddc62a8">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-525291b e-grid e-con-boxed e-con e-child" data-element_type="container" data-id="525291b">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a8e481e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="a8e481e" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Flexible Space &amp; Access Packages</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-43882c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="43882c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Premium Ergonomic Chairs</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-bc38f20 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="bc38f20" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">All Location Access</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-f7849c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="f7849c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Complete Business Amenities</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-5f0439f elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="5f0439f" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">All Membership Benefits</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-653ac99 memebership-page-card-button e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="653ac99">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a92ad83 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="a92ad83" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+									From RM200/month								</div>
+</div>
+<div class="elementor-element elementor-element-bd29fb6 elementor-widget elementor-widget-button" data-element_type="widget" data-id="bd29fb6" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">BOOK A TOUR</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor elementor-2249 e-loop-item e-loop-item-2561 post-2561 membership type-membership status-publish has-post-thumbnail hentry membership-location-kl-sentral" data-custom-edit-handle="1" data-elementor-id="2249" data-elementor-post-type="elementor_library" data-elementor-type="loop-item">
+<div class="elementor-element elementor-element-0224145 maincardmemebership e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="0224145">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-85dcc56 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-element_type="widget" data-id="85dcc56" data-widget_type="theme-post-featured-image.default">
+<div class="elementor-widget-container">
+<img alt="Virtual Office" class="attachment-large size-large wp-image-7091" decoding="async" height="681" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="../wp-content/uploads/2024/03/kl-eco-city-event-space.webp" srcset="../wp-content/uploads/2024/03/kl-eco-city-event-space.webp 1080w, ../wp-content/uploads/2024/03/kl-eco-city-event-space-300x256.webp 300w, ../wp-content/uploads/2024/03/kl-eco-city-event-space-768x654.webp 768w" width="800"/> </div>
+</div>
+<div class="elementor-element elementor-element-78cf110 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="78cf110" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Virtual Office</h2> </div>
+</div>
+<div class="elementor-element elementor-element-ddc62a8 xequal-height-icon-list-plans-membership e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="ddc62a8">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-525291b e-grid e-con-boxed e-con e-child" data-element_type="container" data-id="525291b">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a8e481e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="a8e481e" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Use of Office Address</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-43882c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="43882c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Mail Handling</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-bc38f20 elementor-icon-list--layout-traditional elementor-list-item-link-full_width No elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="bc38f20" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text"></span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-f7849c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width No elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="f7849c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text"></span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-5f0439f elementor-icon-list--layout-traditional elementor-list-item-link-full_width No elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="5f0439f" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text"></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-653ac99 memebership-page-card-button e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="653ac99">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a92ad83 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="a92ad83" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+									From RM129/month								</div>
+</div>
+<div class="elementor-element elementor-element-bd29fb6 elementor-widget elementor-widget-button" data-element_type="widget" data-id="bd29fb6" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">BOOK A TOUR</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor elementor-2249 e-loop-item e-loop-item-2562 post-2562 membership type-membership status-publish has-post-thumbnail hentry membership-location-kl-sentral" data-custom-edit-handle="1" data-elementor-id="2249" data-elementor-post-type="elementor_library" data-elementor-type="loop-item">
+<div class="elementor-element elementor-element-0224145 maincardmemebership e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="0224145">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-85dcc56 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-element_type="widget" data-id="85dcc56" data-widget_type="theme-post-featured-image.default">
+<div class="elementor-widget-container">
+<img alt="" class="attachment-large size-large wp-image-4231" decoding="async" height="275" loading="lazy" sizes="(max-width: 376px) 100vw, 376px" src="../wp-content/uploads/2024/03/asian-colleague-meeting.webp" srcset="../wp-content/uploads/2024/03/asian-colleague-meeting.webp 376w, ../wp-content/uploads/2024/03/asian-colleague-meeting-300x219.webp 300w" width="376"/> </div>
+</div>
+<div class="elementor-element elementor-element-78cf110 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="78cf110" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Day Pass</h2> </div>
+</div>
+<div class="elementor-element elementor-element-ddc62a8 xequal-height-icon-list-plans-membership e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="ddc62a8">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-525291b e-grid e-con-boxed e-con e-child" data-element_type="container" data-id="525291b">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a8e481e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="a8e481e" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Free Seating</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-43882c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="43882c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Freeflow Coffee &amp; Tea</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-bc38f20 elementor-icon-list--layout-traditional elementor-list-item-link-full_width Yes elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="bc38f20" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text">Chargeable Printing</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-f7849c5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width No elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="f7849c5" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text"></span>
+</li>
+</ul>
+</div>
+</div>
+<div class="elementor-element elementor-element-5f0439f elementor-icon-list--layout-traditional elementor-list-item-link-full_width No elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="5f0439f" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<span class="elementor-icon-list-icon">
+<svg height="97.765" viewbox="0 0 100 97.765" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M223.289,140.016h-27.36q-12.253,0-19.9-7.824t-7.645-20.215q0-12.411,7.645-20.21t19.9-7.824q12.273,0,19.815,7.824,7.386,7.634,7.531,19.7Zm8.687-63.265q-13.788-13.636-36.047-13.634-22.062,0-36.13,13.818T145.766,112q0,23.129,13.868,36T191.8,160.882h53.963V112.789Q245.745,90.39,231.976,76.751Z" fill="#3bd4ae" id="yellow-a-bgd" transform="translate(-145.766 -63.117)"></path></svg> </span>
+<span class="elementor-icon-list-text"></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-653ac99 memebership-page-card-button e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="653ac99">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a92ad83 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="a92ad83" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+									From RM59/day								</div>
+</div>
+<div class="elementor-element elementor-element-bd29fb6 elementor-widget elementor-widget-button" data-element_type="widget" data-id="bd29fb6" data-widget_type="button.default">
+<div class="elementor-widget-container">
+<div class="elementor-button-wrapper">
+<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us/">
+<span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">BOOK A TOUR</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="elementor-element elementor-element-79a83a2 e-con-full e-flex e-con e-parent" data-element_type="container" data-id="79a83a2">
 <div class="elementor-element elementor-element-41b21cd e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="41b21cd" data-settings='{"background_background":"classic"}'>
